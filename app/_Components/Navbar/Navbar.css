@@ -19,13 +19,14 @@ nav ul {
 nav ul li {
   font-size: 1rem;
   font-family: "Rethink Sans", sans-serif;
+  cursor: pointer;
 }
 
 
 nav ul li:hover {
-  cursor: pointer;
   transform: scale(1.1);
   color: #c6f806;
+  transition: 0.1s;
 }
 
 nav ul li img {

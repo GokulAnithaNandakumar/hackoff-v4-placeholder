@@ -8,9 +8,9 @@ const Navbar = () => {
         <div className="navbar-logo-container">
           <img src="images/logo-small.png" alt="" />
         </div>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Contact</a></li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
     </nav>
   );

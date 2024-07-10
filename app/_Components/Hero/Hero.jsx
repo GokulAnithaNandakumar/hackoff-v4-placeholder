@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="coming-soon">
           <Marquee autoFill={true} pauseOnHover={true} direction="right">
             <pre className="scroll-text">
-              <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON {" "}
+              <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON <FaStarOfLife className="star" /> COMING SOON {""}
             </pre>
           </Marquee>
         </div>
