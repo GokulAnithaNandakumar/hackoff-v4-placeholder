@@ -1,0 +1,50 @@
+.hero-main {
+  background: url("../../_assets/Background.png");
+}
+
+.hero-logo {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-logo-img {
+  height: 10rem;
+  margin-top: 7rem;
+}
+
+.coming-soon-container {
+  height: 6rem;
+  margin-top: 7.5rem;
+  background-color: #c6f806;
+  transform: rotate(-5deg);
+  display: flex;
+  width: 110vw;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  position: relative;
+  left: -20px;
+}
+
+.coming-soon {
+  display: flex;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.coming-soon div {
+  color: black;
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: "Druk Wide Trial", sans-serif;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
