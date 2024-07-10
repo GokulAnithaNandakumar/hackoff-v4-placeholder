@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="coming-soon-container">
         <div className="coming-soon">
           <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
-          <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON * </div>
+          <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
         </div>
       </div>
     </div>

@@ -23,6 +23,7 @@ nav ul li {
 
 nav ul li:hover {
   color: #c6f806;
+  transform: scale(1.05);
   transition: 0.1s;
 }
 
