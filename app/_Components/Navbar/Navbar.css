@@ -20,6 +20,8 @@ nav ul li {
   font-size: 1rem;
   font-family: "Rethink Sans", sans-serif;
   cursor: pointer;
+  color: white;
+  font-weight: 500;
 }
 
 nav ul li:hover {
