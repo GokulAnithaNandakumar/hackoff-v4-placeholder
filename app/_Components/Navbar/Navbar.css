@@ -72,9 +72,6 @@ nav ul li img {
 
 }
 
-span .hamburger-inner::beore {
-  background-color: #c6f806 !important;
-}
 /* @media (max-width: 768px) {
   /* nav ul {
     width: 18rem;
