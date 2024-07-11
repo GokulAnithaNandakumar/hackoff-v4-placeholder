@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: "Atyp Display";
-  src: url("/fonts/AtypDisplay-Medium.otf");
+  src: url("/fonts/AtypDisplay-Medium.ttf");
   font-weight: 600; /* Demi is generally considered as semi-bold or demi-bold */
 }
 
