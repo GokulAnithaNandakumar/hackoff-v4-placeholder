@@ -37,7 +37,7 @@
 .coming-soon {
   display: flex;
   white-space: nowrap;
-  animation: moveText 180s linear infinite;
+  animation: moveText 3600s linear infinite;
 }
 
 .coming-soon div {
@@ -49,7 +49,7 @@
 
 @keyframes moveText {
   0% {
-    transform: translateX(-50%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(100%);
