@@ -4,9 +4,9 @@ import "./Tagline.css";
 const Tagline = () => {
   return (
     <div className="tagline">
-      <div className="tagline-top">Fusing Innovation & </div>
+      <div className="tagline-top">Fusing Innovation</div>
       <div className="tagline-bottom">
-        Technology into Unparalleled Digital Solutions that Inspire and Engage.
+        & Technology into Unparalleled Digital Solutions that Inspire and Engage.
       </div>
     </div>
   );

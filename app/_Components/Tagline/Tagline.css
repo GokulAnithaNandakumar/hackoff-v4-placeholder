@@ -19,3 +19,17 @@
 .tagline-bottom {
     text-align: justify;
 }
+
+@media (max-width: 768px) { 
+    .tagline {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0.0375em;
+        margin-top: 2rem;
+    }
+
+    .tagline-bottom {
+        font-size: 30px;
+        text-align: left;
+    }
+}
