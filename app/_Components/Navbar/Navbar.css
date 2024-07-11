@@ -60,8 +60,20 @@ nav ul li img {
   position: absolute;
 }
 
-.icon {
-  font-size: 24px;
+.navbar-menu li {
+  color: black;
+}
+
+.hamburger-box {
+  height: 20px !important;
+  width: 32px !important;
+  margin: auto;
+  color: #c6f806;
+
+}
+
+span .hamburger-inner::beore {
+  background-color: #c6f806 !important;
 }
 /* @media (max-width: 768px) {
   /* nav ul {
