@@ -40,6 +40,12 @@
   --card-border-rgb: 131, 134, 135;
 }
 
+@font-face {
+  font-family: "Druk Wide Trial";
+  src: url("/fonts/DrukWide-Medium-Trial.otf");
+  font-weight: 600; /* Demi is generally considered as semi-bold or demi-bold */
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

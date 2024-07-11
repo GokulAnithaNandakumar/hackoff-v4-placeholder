@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
             {isMenuOpen ? (
               <img src="images/cross.png" alt="x" />
             ) : (
-              <img src="images/hamburger.png" alt="=" />
+              <RxHamburgerMenu className="icon" />
             )}
           </li>
         ) : (
