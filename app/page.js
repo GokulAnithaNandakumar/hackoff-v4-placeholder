@@ -5,10 +5,10 @@ import Footer from "./_Components/Footer/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div className={styles.main}>
       <Hero/>
       <Tagline/>
       <Footer/>
-    </>
+    </div>
   );
 }
