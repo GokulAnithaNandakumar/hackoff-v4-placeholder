@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="coming-soon-container">
         <div className="coming-soon">
-          <Marquee direction="right" autoFill={true}>
+          <Marquee direction="right" autoFill={true} speed={60}>
             <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON * {" "}</div>
           </Marquee>
         </div>
