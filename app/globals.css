@@ -43,6 +43,12 @@
 @font-face {
   font-family: "Druk Wide Trial";
   src: url("/fonts/DrukWide-Medium-Trial.otf");
+  font-weight: 600; 
+}
+
+@font-face {
+  font-family: "Atyp Display";
+  src: url("/fonts/AtypDisplay-Medium.otf");
   font-weight: 600; /* Demi is generally considered as semi-bold or demi-bold */
 }
 
