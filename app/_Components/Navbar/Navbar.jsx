@@ -1,8 +1,8 @@
-"use client";
+"use client"
 
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import { RxHamburgerMenu } from "react-icons/rx";
+import "./Hamburger.css";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -27,15 +27,15 @@ const Navbar = () => {
     <nav>
       <ul className={`${isMobile ? "mobile" : ""}`}>
         <div className="navbar-logo-container">
-          <img src="images/logo-small.png" alt="" />
+          <img src="images/logo-small.png" alt="Logo" />
         </div>
         {isMobile ? (
           <li onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            {isMenuOpen ? (
-              <img src="images/cross.png" alt="x" />
-            ) : (
-              <RxHamburgerMenu className="icon" />
-            )}
+            <button className={`hamburger hamburger--slider ${isMenuOpen ? 'is-active' : ''}`} type="button">
+              <span className="hamburger-box icon">
+                <span className="hamburger-inner"></span>
+              </span>
+            </button>
           </li>
         ) : (
           <>
