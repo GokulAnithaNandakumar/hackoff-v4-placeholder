@@ -34,3 +34,36 @@ nav ul li img {
 .navbar-logo-container {
   height: 1.5rem;
 }
+
+.mobile {
+  justify-content: space-between;
+  padding: 0 1rem;
+  width: 15rem;
+}
+
+.navbar-menu {
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0.5rem 1rem;
+  gap: 10px;
+  height: fit-content;
+  background-color: #c6f806;
+  color: black;
+  width: 15rem;
+  margin-top: 0.5rem;
+  border-radius: 23px;
+  font-weight: 700;
+  z-index: 100;
+  position: absolute;
+}
+
+/* @media (max-width: 768px) {
+  /* nav ul {
+    width: 18rem;
+  } */
+
+  /* .navbar-menu {
+    width: 18rem;
+  } */
+/* } */
