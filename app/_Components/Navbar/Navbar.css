@@ -64,6 +64,10 @@ nav ul li img {
   color: black;
 }
 
+.navbar-menu li:hover {
+  color: black;
+}
+
 .hamburger-box {
   height: 20px !important;
   width: 32px !important;
