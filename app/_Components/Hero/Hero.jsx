@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import Navbar from "../Navbar/Navbar";
 import logo from "../../../public/images/logo-big.png";
+import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
@@ -12,8 +13,9 @@ const Hero = () => {
       </div>
       <div className="coming-soon-container">
         <div className="coming-soon">
-          <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
-          <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
+          <Marquee direction="right" autoFill={true}>
+            <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON * {" "}</div>
+          </Marquee>
         </div>
       </div>
     </div>
