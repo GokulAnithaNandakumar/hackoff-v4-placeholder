@@ -82,12 +82,12 @@
     font-size: 1rem;
     margin: 0px auto;
     width: 11.5rem;
-    height: 20rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1.75rem;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .contact {
@@ -177,10 +177,9 @@
 
     .f3 {
         border-bottom: none;
-    }
-
-    .contact {
-        padding-right: 42rem;
+        height: fit-content;
+        align-items: left;
+        padding-bottom: 0;
     }
 
     .f2 {
@@ -220,4 +219,11 @@
         font-size: 14px;
         font-weight: 600;
     }
+
+    .contact {
+        height: fit-content;
+        align-items: left;
+        margin: 1.5rem 0;
+    }
+
 }
