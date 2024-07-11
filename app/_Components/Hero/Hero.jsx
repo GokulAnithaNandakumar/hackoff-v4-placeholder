@@ -18,6 +18,13 @@ const Hero = () => {
           <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON * </div>
           <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
           <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON * </div>
+          <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
+          <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON * </div>
+          <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
+          <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON * </div>
+          <div>COMING SOON * COMING SOON * COMING SOON * COMING SOON</div>
+          <div> * COMING SOON * COMING SOON * COMING SOON * COMING SOON * </div>
+          
         </div>
       </div>
     </div>
