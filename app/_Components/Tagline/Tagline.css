@@ -13,16 +13,16 @@
 }
 
 .tagline-top{
-    text-align: right;
+    text-align: center;
 }
 
 .tagline-bottom {
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 768px) { 
     .tagline {
-        font-size: 28px;
+        font-size: 21px;
         line-height: 32px;
         letter-spacing: 0.0375em;
         margin-top: 2rem;
@@ -30,6 +30,7 @@
     }
 
     .tagline-top {
+        margin-top: 40%;
         text-align: left;
     }
 
