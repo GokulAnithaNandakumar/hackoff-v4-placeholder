@@ -1,5 +1,5 @@
 .hero-main {
-  background: url("../../../public//images/Frame\ 3.svg");
+  background: url("../../../public/images/Frame 3.svg");
   background-color: rgba(198, 248, 6, 0.2);
   height: 100vh;
   margin: none;
@@ -25,42 +25,39 @@
   background-color: #c6f806;
   transform: rotate(-5deg);
   display: flex;
-  width: 110vw;
+  width: 100vw;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
-  left: -20px;
-  /* display: none; */
 }
 
 .coming-soon {
   display: flex;
-  white-space: nowrap;
-  animation: moveText 3600s linear infinite;
+  width: 200%;
+  animation: moveText 20s linear infinite;
 }
 
-.coming-soon div {
+.coming-soon-text {
   color: black;
   font-weight: 800;
   font-size: 3rem;
   font-family: "Druk Wide Trial", sans-serif;
+  white-space: nowrap;
 }
 
 @keyframes moveText {
   0% {
-    transform: translateX(0);
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 }
 
 @media (max-width: 768px) {
-
-  .hero-main { 
+  .hero-main {
     height: fit-content;
-    /* min-height: 100vh; */
   }
 
   .hero-logo-img {
@@ -75,7 +72,7 @@
     left: 0;
   }
 
-  .coming-soon div {
+  .coming-soon-text {
     font-size: 2.5rem;
   }
 }
