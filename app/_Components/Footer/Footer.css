@@ -23,6 +23,7 @@
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
+
 .link:hover {
     background-color: white;
     color: black;
@@ -60,6 +61,16 @@
     flex: 1; 
     padding-left: 1rem; 
     box-sizing: border-box; 
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text1{
+    margin-bottom: 7%;
 }
 
 .f2 {
@@ -178,28 +189,31 @@ h3:hover::after {
     }
 
     .con2 {
-        flex-direction: column;
+        flex-direction: row; 
         height: fit-content;
         border-top: 2px solid #C6F806;
         border-bottom: 2px solid #C6F806;
         padding: 1rem 0;
+        justify-content: space-between;
     }
 
-    .f1, .f3 {
-        width: 100%;
-        padding: 1rem 0;
-        border-bottom: 2px solid #C6F806;
+    .f1 {
+        display: none;
     }
 
-    .f3 {
+    .f2{
+        border-left: none;
+    }
+
+    .f2, .f3 {
+        width: 48%; 
+        padding: 0rem 0;
+        box-sizing: border-box;
         border-bottom: none;
         height: fit-content;
         align-items: flex-start;
         padding-bottom: 0;
-    }
-
-    .f2 {
-        display: none;
+        font-size: 2.0rem;
     }
 
     .cont3 {
@@ -250,11 +264,8 @@ h3:hover::after {
         width: 100%;
     }
 
-    .contact {
-        height: fit-content;
-        align-items: flex-start;
-        margin: 1.5rem 0;
-        text-align: center;
+    .menu, .contact {
         width: 100%;
+        margin: 1.5rem 0;
     }
 }
