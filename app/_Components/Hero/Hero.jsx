@@ -13,10 +13,10 @@ const Hero = () => {
       <div className="coming-soon-container">
         <div className="coming-soon">
           <div className="coming-soon-text">
-            {Array(50).fill("COMING SOON * ").join("")}
+            {Array(50).fill("HACKEMUP * HACKTHEFUTURE * HACKBYTEBYBYTE * ").join("")}
           </div>
           <div className="coming-soon-text">
-            {Array(50).fill("COMING SOON * ").join("")}
+            {Array(50).fill("HACKEMUP * HACKTHEFUTURE * HACKBYTEBYBYTE * ").join("")}
           </div>
         </div>
       </div>

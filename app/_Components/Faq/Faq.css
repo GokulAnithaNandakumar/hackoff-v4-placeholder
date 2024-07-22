@@ -18,7 +18,7 @@ body {
   font-weight: 500;
   line-height: 19.6px; /* 32.667% */
   text-transform: uppercase;
-  margin-left: 5.75rem;;
+  margin-left: 5.75rem;
   margin-bottom: 2rem;
   
 }
@@ -29,6 +29,7 @@ body {
   background-color: black;
   margin: 0 auto;
   min-height: 100vh;
+  padding: 0px !important;
   padding-top: 5.75rem;
   padding-bottom: 5.75rem;
 }
@@ -38,7 +39,7 @@ body {
   /* max-width: 1200px; */
   /* margin: 0 auto; */
   /* padding: 60px 0; */
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .section-title {
