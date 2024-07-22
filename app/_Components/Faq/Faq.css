@@ -5,7 +5,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .h1faq{
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   display: flex;
   width: 753px;
   height: 98px;
@@ -18,15 +18,17 @@ body {
   font-weight: 500;
   line-height: 19.6px; /* 32.667% */
   text-transform: uppercase;
+  margin-left: 1.5rem;
   
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   max-width: 100%;
   background-color: black;
   margin: 0 auto;
   min-height: 100vh;
+  padding: 5.75rem;
 }
 
 .container-inner {
