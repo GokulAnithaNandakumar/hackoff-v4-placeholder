@@ -23,14 +23,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.container {
+.container4 {
   width: 100%;
   max-width: 100%;
   background-color: black;
   margin: 0 auto;
-  min-height: 100vh;
-  padding-top: 5.75rem;
-  padding-bottom: 5.75rem;
+
 }
 
 .container-inner {
@@ -166,6 +164,10 @@ body {
 @media (max-width: 560px) {
   .h1contact {
     font-size: 30px;
+  }
+
+  .container4 {
+    margin-bottom: 2rem;
   }
 
   .contact-card-desktop {

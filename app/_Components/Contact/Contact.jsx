@@ -7,8 +7,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className='container'>
-      <h1 className='h1contact'>CONTACT US</h1>
+    <div className='container4'>
+      <h1 className='h1faq'>CONTACT US</h1>
       <div className='container-inner'>
         <div className='section-title'>
           <h1 className='emailLine'>Reach out to us at: <a href="mailto:iet@vit.ac.in"> iet@vit.ac.in </a></h1>
