@@ -19,6 +19,7 @@ const Faq = () => {
 
   return (
     <div className='container'>
+      <h1 className='h1faq'>FAQ'S</h1>
       <div className='container-inner'>
         {/* Section Title */}
         <div className='section-title'>
