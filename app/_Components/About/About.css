@@ -1,0 +1,119 @@
+.about {
+  background-color: black;
+  padding: 5.75rem;
+}
+
+.gridDisplay {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.AboutP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  font-feature-settings: 'dlig' on;
+  font-family: "Atyp Display";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+
+.h1Abt {
+  display: flex;
+  width: 753px;
+  height: 98px;
+  flex-direction: column;
+  justify-content: center;
+  color: #C6F806;
+  font-family: "Druk Wide Trial";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.6px; /* 32.667% */
+  text-transform: uppercase;
+}
+
+.linkTeam {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  width: fit-content;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  line-height: 2rem;
+  background-color: transparent;
+  color: white;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.linkTeam:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .gridDisplay {
+    grid-template-columns: 1fr;
+  }
+
+  .h1Abt {
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .linkTeam {
+    font-size: 1.3rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .AboutP {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 3rem;
+  }
+
+  .h1Abt {
+    font-size: 40px;
+  }
+
+  .linkTeam {
+    font-size: 1.1rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .AboutP {
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 2rem;
+  }
+
+  .h1Abt {
+    font-size: 30px;
+  }
+
+  .linkTeam {
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .AboutP {
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+}
