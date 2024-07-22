@@ -52,9 +52,9 @@ const Faq = () => {
                   <ul>
                     <li><a href='#'>If you are in a high risk industry</a>, it is likely you are suffering attacks without noticing them.</li>
                     <li>If user authentication is a part of your business, it is highly recommended to implement a fraud prevention to stop account takeovers and identity theft.</li>
-                    <li>Regulatory bodies are increasingly stringent about fraud prevention measures. To avoid hefty fines, it’s important to show you have put the best security in place.</li>
+                    <li>Regulatory bodies are increasingly stringent about fraud prevention measures. To avoid hefty fines, it's important to show you have put the best security in place.</li>
                   </ul>
-                  <p>Finally, many organisations think they are too small to be targets of fraud. As we’ve discovered, companies of all sizes can be attacked,<a href='/use-cases/'>and in an increasing number of verticals.</a></p>
+                  <p>Finally, many organisations think they are too small to be targets of fraud. As we've discovered, companies of all sizes can be attacked,<a href='/use-cases/'>and in an increasing number of verticals.</a></p>
                 </div>
               </div>
             ))}
