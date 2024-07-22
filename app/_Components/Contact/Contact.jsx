@@ -19,16 +19,27 @@ const Contact = () => {
             { name: 'TANVEE HARLALKA', role: 'EVENTS HEAD', phone: '+91 91043 31305' },
             { name: 'NANDINI BHASKARAN', role: 'FINANCIAL HEAD', phone: '+91 91043 31305' },
           ].map((contact, index) => (
-            <div className='contact-card' key={index}>
+            <>
+            <div className='contact-card-desktop' key={index}>
               <div className='contact-info'>
                 <h3>{contact.name}</h3>
                 <p>{contact.role}</p>
               </div>
               <div className='contact-phone'>
-                <span>{contact.phone}</span>
+                <span className='contact-phone-desktop'>{contact.phone}</span>
                 <div className='call-icon'><FaPhoneAlt /></div>
               </div>
             </div>
+
+            <div className='contact-card-mobile'>
+            <div className='contact-info'>
+              <h3>{contact.name}</h3>
+              <p>{contact.role}</p>
+              <span className='contact-phone-mobile'>{contact.phone}</span>
+            </div>
+            <div className='call-icon'><FaPhoneAlt /></div>
+          </div>
+          </>
           ))}
         </div>
       </div>

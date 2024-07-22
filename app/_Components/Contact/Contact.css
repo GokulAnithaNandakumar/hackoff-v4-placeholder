@@ -1,3 +1,4 @@
+/* Contact.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 body {
@@ -58,11 +59,21 @@ body {
   padding-right: 5.75rem;
 }
 
-.contact-card {
+.contact-card-desktop {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #000000;
+  border-bottom: 1px dashed #454545;
+  border-left: 1px dashed #454545;
+  border-right: 1px dashed #454545;
+  padding: 10px 20px;
+}
+
+.contact-card-mobile {
+  display: none;
+  width: 100%;
   background: #000000;
   border-bottom: 1px dashed #454545;
   border-left: 1px dashed #454545;
@@ -76,11 +87,11 @@ body {
 }
 
 .contact-info h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 20px;
   color: #C6F806;
-  margin: 0 0 5px 0px;
+  margin: 5px 0 5px 0px;
 }
 
 .contact-info p {
@@ -104,6 +115,14 @@ body {
   margin-right: 10px;
 }
 
+.contact-phone-mobile {
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
 .call-icon {
   width: 36px;
   height: 36px;
@@ -113,8 +132,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease;
 }
-
 
 /* Media Queries */
 
@@ -130,23 +149,39 @@ body {
     font-size: 40px;
   }
 
+  .emailLine {
+    margin-left: -2rem!important;
+  }
+
   .contact-container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+}
 
-  .contact-card {
-    flex-direction: column;
+@media (max-width: 560px) {
+  .h1contact {
+    font-size: 30px;
+  }
+
+  .contact-card-desktop {
+    display: none;
+  }
+
+  .contact-card-mobile {
+    display: flex;
+    justify-content: space-between;
     align-items: flex-start;
   }
 
-  .contact-phone {
-    margin-top: 10px;
+  .contact-card-mobile .contact-info {
+    flex: 1;
   }
-}
 
-@media (max-width: 480px) {
-  .h1contact {
-    font-size: 30px;
+  .contact-card-mobile .call-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    margin-top: 10px;
   }
 }
