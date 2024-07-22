@@ -11,7 +11,7 @@ const Contact = () => {
       <h1 className='h1contact'>CONTACT US</h1>
       <div className='container-inner'>
         <div className='section-title'>
-          <h1 className='emailLine'>Reach out to us at: iet@vit.ac.in</h1>
+          <h1 className='emailLine'>Reach out to us at: <a href="mailto:iet@vit.ac.in"> iet@vit.ac.in </a></h1>
         </div>
         <div className='contact-container'>
           {[
@@ -27,7 +27,7 @@ const Contact = () => {
               </div>
               <div className='contact-phone'>
                 <span className='contact-phone-desktop'>{contact.phone}</span>
-                <div className='call-icon'><FaPhoneAlt /></div>
+                <div className='call-icon'><a href={`tel:${contact.phone}`} className='phone-call'><FaPhoneAlt /></a></div> 
               </div>
             </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
               <p>{contact.role}</p>
               <span className='contact-phone-mobile'>{contact.phone}</span>
             </div>
-            <div className='call-icon'><FaPhoneAlt /></div>
+              <div className='call-icon'><a href={`tel:${contact.phone}`} className='phone-call'><FaPhoneAlt /></a></div> 
           </div>
           </>
           ))}
