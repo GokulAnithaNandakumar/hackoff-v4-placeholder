@@ -3,6 +3,7 @@ import "./Hero.css";
 import Navbar from "../Navbar/Navbar";
 import logo from "../../../public/images/logo-big.png";
 
+
 const Hero = () => {
   return (
     <div className="hero-main">
