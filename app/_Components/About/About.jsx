@@ -13,7 +13,7 @@ const About = () => {
           </div>
         </div>
         <div className='item2'>
-          <p className='AboutP'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci itaque ratione assumenda quidem ducimus in ex, repellendus quia soluta et accusamus sunt. Architecto unde iste adipisci, sed explicabo tenetur.</p>
+          <p className='AboutP'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci itaque ratione assumenda quidem ducimus in ex, repellendus quia soluta et accusamus sunt. Architecto unde iste adipisci, sed explicabo tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus inventore optio sunt consequuntur adipisci explicabo quae sapiente officia maiores natus porro excepturi ea dolorum debitis illo beatae, fugit in.</p>
         </div>
       </div>
     </div>

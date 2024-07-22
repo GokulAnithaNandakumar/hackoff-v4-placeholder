@@ -19,7 +19,9 @@
   font-family: "Atyp Display";
   font-style: normal;
   font-weight: 400;
+  font-size: large;
   line-height: 150%; /* 30px */
+  margin-top: 1rem;
 }
 
 .h1Abt {
