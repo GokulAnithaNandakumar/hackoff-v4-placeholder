@@ -8,7 +8,7 @@ const Tagline = () => {
 
   const { scrollYProgress } = useScroll({
     target: element,
-    offset: ["start end", "start start"]
+    offset: ["start 0.75", "start start"]
   });
 
   const topText = "Fusing Innovation";
