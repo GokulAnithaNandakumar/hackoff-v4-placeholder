@@ -52,7 +52,10 @@ const Navbar = () => {
               <li>FAQ's</li>
               <li>Contacts</li>
             </div>
-            <div className="devfolio-btn"><img src="images/devfolio-logo.png" alt="Devfolio" />Apply with Devfolio</div>
+            <div className="devfolio-btn">
+              <img src="images/devfolio-logo.png" alt="Devfolio" />
+              Apply with Devfolio
+            </div>
           </>
         )}
       </ul>
@@ -60,7 +63,14 @@ const Navbar = () => {
         <ul className="navbar-menu">
           <li>Home</li>
           <li>About</li>
-          <li>Contact</li>
+          <li>Timeline</li>
+          <li>Sponsers</li>
+          <li>FAQ's</li>
+          <li>Contacts</li>
+          <div className="devfolio-btn">
+            <img src="images/devfolio-logo.png" alt="Devfolio" />
+            Apply with Devfolio
+          </div>
         </ul>
       )}
     </nav>
