@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
@@ -31,7 +31,12 @@ const Navbar = () => {
         </div>
         {isMobile ? (
           <li onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <button className={`hamburger hamburger--slider ${isMenuOpen ? 'is-active' : ''}`} type="button">
+            <button
+              className={`hamburger hamburger--slider ${
+                isMenuOpen ? "is-active" : ""
+              }`}
+              type="button"
+            >
               <span className="hamburger-box icon">
                 <span className="hamburger-inner"></span>
               </span>
@@ -39,9 +44,15 @@ const Navbar = () => {
           </li>
         ) : (
           <>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            <div className="navigation">
+              <li>Home</li>
+              <li>About</li>
+              <li>Timeline</li>
+              <li>Sponsers</li>
+              <li>FAQ's</li>
+              <li>Contacts</li>
+            </div>
+            <div className="devfolio-btn"><img src="images/devfolio-logo.png" alt="Devfolio" />Apply with Devfolio</div>
           </>
         )}
       </ul>
