@@ -32,20 +32,20 @@ const Footer = () => {
           <div className="f2">
             <div className="menu">
               <p style={{color:"#C6F806"}}>[MENU]</p>
-              <h3>ABOUT SECTION</h3>
-              <h3>TIMELINE</h3>
-              <h3>TRACKS</h3>
-              <h3>SPEAKER</h3>
-              <h3>SPONSORS</h3>
-              <h3>FAQ</h3>
+              <h3 className="h3Footer">ABOUT SECTION</h3>
+              <h3 className="h3Footer">TIMELINE</h3>
+              <h3 className="h3Footer">TRACKS</h3>
+              <h3 className="h3Footer">SPEAKER</h3>
+              <h3 className="h3Footer">SPONSORS</h3>
+              <h3 className="h3Footer">FAQ</h3>
             </div>
           </div>
           <div className="f3">
             <div className="contact">
             <p style={{color:"#C6F806"}}>[CONTACT]</p>
-              <h3>EMAIL</h3>
-              <h3>LINKEDIN</h3>
-              <h3>INSTAGRAM</h3>
+              <h3 className="h3Footer">EMAIL</h3>
+              <h3 className="h3Footer">LINKEDIN</h3>
+              <h3 className="h3Footer">INSTAGRAM</h3>
             </div>
           </div>
         </div>
