@@ -9,10 +9,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  min-height: 80vh;
 }
 .hero-logo {
   max-width: fit-content;
   margin-right: auto;
+  
 }
 
 .hero-logo img {
