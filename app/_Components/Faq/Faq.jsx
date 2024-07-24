@@ -35,7 +35,7 @@ const Faq = () => {
                   className={`titleWrapper ${activeIndex === index ? 'active' : 'inactive'}`}
                   onClick={() => toggleAccordion(index)}
                 >
-                  <h3>Do I need a fraud prevention system?</h3>
+                  <h3>WHAT IS A HACK-OFF EVENT?</h3>
                   <div className="collapse-icon-container">
                     <div className='collapse-icon'>
                       <div className='acc-close'></div>
@@ -45,16 +45,13 @@ const Faq = () => {
                 </div>
                 <div
                   ref={el => (contentRefs.current[index] = el)}
-                  className={`desWrapper ${activeIndex === index ? 'open' : ''}`}
+                  className={`faq-ans desWrapper ${activeIndex === index ? 'open' : ''}`}
                   style={{ maxHeight: activeIndex === index ? heights[index] : 0 }}
                 >
-                  <p>Fraud prevention can be the bane of some businesses, but also invisible to others. High chargeback rates are a clear indicator of fraudulent attacks, but some can go undetected until you implement a system.</p>
-                  <ul>
-                    <li><a href='#'>If you are in a high risk industry</a>, it is likely you are suffering attacks without noticing them.</li>
-                    <li>If user authentication is a part of your business, it is highly recommended to implement a fraud prevention to stop account takeovers and identity theft.</li>
-                    <li>Regulatory bodies are increasingly stringent about fraud prevention measures. To avoid hefty fines, it's important to show you have put the best security in place.</li>
-                  </ul>
-                  <p>Finally, many organisations think they are too small to be targets of fraud. As we've discovered, companies of all sizes can be attacked,<a href='/use-cases/'>and in an increasing number of verticals.</a></p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut sagittis tincidunt phasellus elit etiam cursus orci in. Id sed montes.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus feugiat ut egestas ut sagittis tincidunt phasellus elit etiam cursus orci in. Id sed montes.
+                  </p>
                 </div>
               </div>
             ))}

@@ -119,6 +119,14 @@
     justify-content: space-around;
 }
 
+.left p, .right p {
+    color: white;
+}
+
+.b p {
+    color: #0c0c0c;
+}
+
 
 
 .h3Footer::after {
