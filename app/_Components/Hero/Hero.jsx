@@ -25,22 +25,23 @@ const Hero = () => {
             </div>
           </div>
           <div className="socials-container">
-            <button className="social">
+            <button className="social" key="facebook">
               <img src="images/facebook.svg" alt=""></img>
             </button>
-            <button className="social">
+            <button className="social" key="twitter">
               <img src="images/x.svg" alt=""></img>
             </button>
-            <button className="social">
+            <button className="social" key="linkedin">
               <img src="images/linkedin.svg" alt=""></img>
             </button>
-            <button className="social">
+            <button className="social" key="instagram">
               <img src="images/instagram.svg" alt=""></img>
             </button>
-            <button className="social">
+            <button className="social" key="mail">
               <img src="images/mail.svg" alt=""></img>
             </button>
           </div>
+
         </div>
       </div>
 
