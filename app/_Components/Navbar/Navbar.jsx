@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import "./Hamburger.css";
 
+import DevfolioButton from "../DevfolioBtn/DevfolioBtn";
+
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,10 +54,7 @@ const Navbar = () => {
               <li>FAQ's</li>
               <li>Contacts</li>
             </div>
-            <div className="devfolio-btn">
-              <img src="images/devfolio-logo.png" alt="Devfolio" />
-              Apply with Devfolio
-            </div>
+            <DevfolioButton/>
           </>
         )}
       </ul>
@@ -67,10 +66,7 @@ const Navbar = () => {
           <li>Sponsers</li>
           <li>FAQ's</li>
           <li>Contacts</li>
-          <div className="devfolio-btn">
-            <img src="images/devfolio-logo.png" alt="Devfolio" />
-            Apply with Devfolio
-          </div>
+          <DevfolioButton/>
         </ul>
       )}
     </nav>
