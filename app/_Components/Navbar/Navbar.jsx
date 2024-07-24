@@ -1,10 +1,11 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import "./Navbar.css";
 import "./Hamburger.css";
 
-import DevfolioButton from "../DevfolioBtn/DevfolioBtn";
+const DevfolioButton = dynamic(() => import("../DevfolioBtn/DevfolioBtn"), { ssr: false });
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -54,7 +55,7 @@ const Navbar = () => {
               <li>FAQ's</li>
               <li>Contacts</li>
             </div>
-            <DevfolioButton/>
+            <DevfolioButton />
           </>
         )}
       </ul>
@@ -66,7 +67,7 @@ const Navbar = () => {
           <li>Sponsers</li>
           <li>FAQ's</li>
           <li>Contacts</li>
-          <DevfolioButton/>
+          <DevfolioButton />
         </ul>
       )}
     </nav>
