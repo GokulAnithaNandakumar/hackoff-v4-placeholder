@@ -9,8 +9,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #C6F806;
-  height: 280px;
+  /* background-color: chartreuse; */
+  background-image: url('/images/bg.png');
+  
+  height: 290px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
   padding-left: 100px; /* Add left padding for alignment */
   margin-bottom: 50px;
 }
