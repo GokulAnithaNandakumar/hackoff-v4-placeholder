@@ -1,13 +1,15 @@
 .about {
   background-color: black;
-  padding: 5.75rem;
+  margin-left: 5.75rem;
+
+  margin-bottom: 10rem;
 }
 
 .gridDisplay {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .AboutP {
