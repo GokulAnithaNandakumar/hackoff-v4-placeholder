@@ -1,0 +1,104 @@
+.section{
+    background-color: black;
+    height: 88.75rem;
+}
+.abth{
+    padding-left: 8rem;
+    padding-top: 2.5rem;
+    height: 98px;
+    color: #C6F806;
+    font-family: "Druk Wide Trial";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.6px;
+}
+.grid{
+    margin-top:6rem;
+    height: 72rem;
+    border-top: 2px solid #454545;
+    border-bottom: 2px solid #454545;
+}
+.gridin{
+    height: 72rem;
+    width: 88vw;
+    margin: 0px auto;
+}
+.up,.down{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.one{
+    height: 100%;
+    width: 50%;
+    border-bottom:2px dashed #454545;
+    border-left:2px dashed #454545;
+}
+.two{
+    height: 100%;
+    width: 50%;
+    border-bottom:2px dashed #454545;
+    border-left:2px dashed #454545;
+    border-right:2px dashed #454545;
+}
+.oneup,.twoup,.fourup,.lefttext,.righttext,.threedown{
+    margin: 0px auto;
+    width: 90%;
+    font-family: "Atyp Display",sans-serif;
+    font-weight:lighter;
+}
+.oneup h1,.twoup h1,.fourup h1,.lefttext h1,.righttext h1,.threedown h1{
+    font-size: 19px;
+    padding-top: 1rem;
+}
+.oneup p,.twoup p,.fourup p,.lefttext p,.righttext p,.threedown p{
+    font-size: 15px;
+    padding-top: 1rem;
+    color: white;
+}
+.img1,.img2,.img3{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.phoneone{
+    position: absolute;
+    left: -4.5rem;
+}
+.phonetwo{
+    position: absolute;
+    padding-top: 2.5rem;
+    left: -2rem;
+}
+.phonethree{
+    position: absolute;
+    padding-top: 1.5rem;
+    left: -3rem;
+}
+.four{
+    height: 100%;
+    width: 49.85%;
+    border-right:2px dashed #454545;
+}
+.three{
+    height: 100%;
+    width: 50.15%;
+    border-left:2px dashed #454545;
+    border-right:2px dashed #454545;
+}
+.threeup{
+    height: 50%;
+    width: 100%;
+    border-bottom:2px dashed #454545;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    border-right:2px dashed #454545;
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
