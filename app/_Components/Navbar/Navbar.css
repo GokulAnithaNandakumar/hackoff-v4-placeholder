@@ -1,9 +1,9 @@
 nav {
   font-family: "Rethink Sans", sans-serif;
-  z-index: 1000; /* Increase z-index to ensure it's on top */
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
+  z-index: 1000; /* Ensure the navbar stays on top */
+  position: fixed;
   top: 0;
+  width: 100%; /* Make sure the navbar spans the full width */
   background-color: #000; /* Ensure the background is set */
 }
 

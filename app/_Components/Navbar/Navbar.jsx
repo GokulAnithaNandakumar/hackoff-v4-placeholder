@@ -42,32 +42,27 @@ const Navbar = () => {
                 <span className="hamburger-inner"></span>
               </span>
             </button>
+            <ul className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
+              <li>About</li>
+              <li>Team</li>
+              <li>FAQs</li>
+              <li>Sponsors</li>
+              <li>Contact Us</li>
+            </ul>
           </li>
         ) : (
           <>
-            <div className="navigation">
-              <li>Home</li>
-              <li>About</li>
-              <li>Timeline</li>
-              <li>Sponsors</li>
-              <li>FAQ's</li>
-              <li>Contacts</li>
-            </div>
-            <DevfolioButton />
+            <li>About</li>
+            <li>Team</li>
+            <li>FAQs</li>
+            <li>Sponsors</li>
+            <li>Contact Us</li>
+            <li>
+              <DevfolioButton />
+            </li>
           </>
         )}
       </ul>
-      {isMobile && isMenuOpen && (
-        <ul className="navbar-menu">
-          <li>Home</li>
-          <li>About</li>
-          <li>Timeline</li>
-          <li>Sponsors</li>
-          <li>FAQ's</li>
-          <li>Contacts</li>
-          <DevfolioButton />
-        </ul>
-      )}
     </nav>
   );
 };
