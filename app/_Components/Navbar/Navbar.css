@@ -1,19 +1,16 @@
 nav {
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
   z-index: 100;
+  font-family: "Rethink Sans", sans-serif;
 }
 nav ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  align-items: center;
-  border: 1.5px solid #c6f806;
-  width: 20rem;
-  height: 3rem;
-  border-radius: 37px;
+  width:100%;
+  border-bottom: 4px solid #c6f806;
+  height: 4rem;
   list-style: none;
+  padding: 0 2rem;
 }
 
 nav ul li {
@@ -76,14 +73,38 @@ nav ul li img {
 
 }
 
-/* @media (max-width: 768px) {
-  /* nav ul {
-    width: 18rem;
-  } */
+.navigation{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items:center;
+}
 
-  /* .navbar-menu {
-    width: 18rem;
-  } */
-/* } */
+.navigation li{
+  font-weight: 600;
 
+}
 
+.devfolio-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: white;
+  color:black;
+  width: 12.5%;
+  height: 60%;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.devfolio-btn:hover{
+  background-color: #d7d5d5;
+  font-size: 1.01rem;
+}
+
+.devfolio-btn img{
+  width:10%;
+  margin-right: 5px;
+}
