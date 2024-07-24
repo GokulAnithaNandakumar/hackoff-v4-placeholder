@@ -35,9 +35,7 @@ const Navbar = () => {
         {isMobile ? (
           <li onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <button
-              className={`hamburger hamburger--slider ${
-                isMenuOpen ? "is-active" : ""
-              }`}
+              className={`hamburger hamburger--slider ${isMenuOpen ? "is-active" : ""}`}
               type="button"
             >
               <span className="hamburger-box icon">
@@ -51,7 +49,7 @@ const Navbar = () => {
               <li>Home</li>
               <li>About</li>
               <li>Timeline</li>
-              <li>Sponsers</li>
+              <li>Sponsors</li>
               <li>FAQ's</li>
               <li>Contacts</li>
             </div>
@@ -64,7 +62,7 @@ const Navbar = () => {
           <li>Home</li>
           <li>About</li>
           <li>Timeline</li>
-          <li>Sponsers</li>
+          <li>Sponsors</li>
           <li>FAQ's</li>
           <li>Contacts</li>
           <DevfolioButton />

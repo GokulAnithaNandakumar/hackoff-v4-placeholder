@@ -11,8 +11,10 @@ import Contact from "./_Components/Contact/Contact";
 export default function Home() {
   return (
     <div className={styles.main}>
-      <Hero/>
-      <Tagline/>
+      <div className="hero-marquee">
+        <Hero/>
+        <Tagline/>
+      </div>
       <AboutHackoff/>
       <About/>
       <Faq/>

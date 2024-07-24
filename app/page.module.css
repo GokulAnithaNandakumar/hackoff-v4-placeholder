@@ -4,3 +4,8 @@
   background-color: black;
   color: white;
 }
+
+.hero-marquee {
+  min-height: 100vh;
+  max-height: 100vh;
+}

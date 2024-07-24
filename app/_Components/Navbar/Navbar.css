@@ -1,18 +1,22 @@
 nav {
-  z-index: 100;
   font-family: "Rethink Sans", sans-serif;
+  z-index: 1000; /* Increase z-index to ensure it's on top */
+  position: -webkit-sticky; /* For Safari */
   position: sticky;
+  top: 0;
+  background-color: #000; /* Ensure the background is set */
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width:100%;
+  width: 100%;
   border-bottom: 4px solid #c6f806;
   height: 4rem;
   list-style: none;
   padding: 0 2rem;
+  margin: 0; /* Remove default margin */
 }
 
 nav ul li {
@@ -32,6 +36,7 @@ nav ul li:hover {
 nav ul li img {
   height: 100%;
 }
+
 .navbar-logo-container {
   height: 1.5rem;
 }
@@ -72,28 +77,26 @@ nav ul li img {
   width: 32px !important;
   margin: auto;
   color: #c6f806;
-
 }
 
-.navigation{
+.navigation {
   display: flex;
   width: 50%;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
 }
 
-.navigation li{
+.navigation li {
   font-weight: 600;
-
 }
 
-.devfolio-btn{
+.devfolio-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
   background-color: white;
-  color:black;
+  color: black;
   width: 12.5%;
   height: 60%;
   font-size: 1rem;
@@ -101,12 +104,12 @@ nav ul li img {
   cursor: pointer;
 }
 
-.devfolio-btn:hover{
+.devfolio-btn:hover {
   background-color: #d7d5d5;
   font-size: 1.01rem;
 }
 
-.devfolio-btn img{
-  width:10%;
+.devfolio-btn img {
+  width: 10%;
   margin-right: 5px;
 }
