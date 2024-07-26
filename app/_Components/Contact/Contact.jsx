@@ -11,7 +11,7 @@ const Contact = () => {
       <h1 className='h1faq'>CONTACT US</h1>
       <div className='container-inner'>
         <div className='section-title'>
-          <h1 className='emailLine'>Reach out to us at: <a href="mailto:Sankalpsharma250@gmail. com"> Sankalpsharma250@gmail. com </a></h1>
+          <h1 className='emailLine'>Reach out to us at: <a href="mailto:Sankalpsharma250@gmail.com"> Sankalpsharma250@gmail.com </a></h1>
         </div>
         <div className='contact-container'>
           {[
