@@ -9,21 +9,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* background-color: chartreuse; */
   background-image: url('/images/bg.png');
-  
   height: 290px;
   background-size: cover;
   background-repeat: no-repeat;
-
-  padding-left: 100px; /* Add left padding for alignment */
+  padding-left: 100px;
   margin-bottom: 50px;
 }
 
 .banner-content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
+  align-items: flex-start;
 }
 
 .banner-content h1 {
@@ -35,7 +32,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   padding-bottom: 20px;
-  text-align: left; /* Ensure text is left-aligned */
+  text-align: left;
 }
 
 .apply-button {
@@ -44,7 +41,7 @@ body {
   justify-content: center;
   width: 312px;
   height: 44px;
-  font-family: "Atyp Display", sans-serif; /* Change button text font */
+  font-family: "Atyp Display", sans-serif;
 }
 
 .apply-button:hover {

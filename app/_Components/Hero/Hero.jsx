@@ -6,7 +6,9 @@ import logo from "../../../public/images/logo-big.png";
 const Hero = () => {
   return (
     <div className="hero-main">
+      <div className="sticknav">
       <Navbar />
+      </div>
       <div className="hero-container">
         <div className="hero-logo">
           <img src="images/GamePad.png" alt="" />
