@@ -13,7 +13,7 @@ const About = () => {
           </div>
         </div>
         <div className='item2'>
-          <p className='AboutP'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci itaque ratione assumenda quidem ducimus in ex, repellendus quia soluta et accusamus sunt. Architecto unde iste adipisci, sed explicabo tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minus inventore optio sunt consequuntur adipisci explicabo quae sapiente officia maiores natus porro excepturi ea dolorum debitis illo beatae, fugit in.</p>
+          <p className='AboutP'>IET-VIT represents Europe's largest and the world's second-largest professional society, The Institution of Engineering and Technology, at VIT, Vellore. Dedicated to spreading STEM knowledge, we offer students training and inspiration beyond the classroom. Our chapter hosts a variety of engaging events like workshops, ideathons, hackathons, and more, covering cutting-edge tech and essential real-world skills.</p>
         </div>
       </div>
     </div>

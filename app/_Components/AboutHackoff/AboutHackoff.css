@@ -42,20 +42,29 @@
     border-left:2px dashed #454545;
     border-right:2px dashed #454545;
 }
-.oneup,.twoup,.fourup,.lefttext,.righttext,.threedown{
+.oneup,.twoup,.fourup,.lefttext,.righttext,.threedown,.threedown2{
     margin: 0px auto;
     width: 90%;
     font-family: "Atyp Display",sans-serif;
     font-weight:lighter;
 }
-.oneup h1,.twoup h1,.fourup h1,.lefttext h1,.righttext h1,.threedown h1{
+.threedown{
+    border-bottom:2px dashed #454545;
+}
+.oneup h1,.twoup h1,.fourup h1,.lefttext h1,.righttext h1,.threedown h1,.threedown2 h1{
     font-size: 19px;
     padding-top: 1rem;
 }
-.oneup p,.twoup p,.fourup p,.lefttext p,.righttext p,.threedown p{
-    font-size: 15px;
-    padding-top: 1rem;
+.oneup p,.twoup p,.fourup p,.lefttext p,.righttext p,.threedown p,.threedown2 p{
+    font-size: 14.75px;
     color: white;
+}
+.threedown p{
+    padding-bottom: 0.8rem;
+}
+
+.ops{
+    padding-top: 1rem;
 }
 .img1,.img2,.img3{
     height: 100%;
@@ -88,7 +97,7 @@
     border-right:2px dashed #454545;
 }
 .threeup{
-    height: 50%;
+    height: 47.5%;
     width: 100%;
     border-bottom:2px dashed #454545;
     display: flex;

@@ -57,11 +57,16 @@
 }
 
 .linkTeam:hover {
-  background-color: white;
+  background-color: #C6F806;
+  border: none;
   color: black;
   cursor: pointer;
 }
 
+.linkTeam:hover img{
+  height: 2.5rem;
+  width: 2.5rem;
+}
 /* Media Queries */
 @media (max-width: 1200px) {
   .gridDisplay {
