@@ -32,6 +32,7 @@ body {
   padding: 0px !important;
   padding-top: 5.75rem;
   padding-bottom: 5.75rem;
+  margin-bottom: 2rem;
 }
 
 .container-inner {
@@ -124,7 +125,7 @@ a {
 }
 
 .titleWrapper {
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -148,6 +149,7 @@ a {
   max-height: 1000px; /* Adjust according to your needs */
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 8px;
 }
 
 /* Collapse Icon */
