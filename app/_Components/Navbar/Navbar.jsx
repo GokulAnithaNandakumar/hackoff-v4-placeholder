@@ -43,6 +43,7 @@ const Navbar = () => {
               </span>
             </button>
             <ul className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
+              <li>Home</li>
               <li>About</li>
               <li>Team</li>
               <li>FAQs</li>
@@ -52,12 +53,13 @@ const Navbar = () => {
           </li>
         ) : (
           <>
+            <li>Home</li>
             <li>About</li>
             <li>Team</li>
             <li>FAQs</li>
             <li>Sponsors</li>
             <li>Contact Us</li>
-            <li>
+            <li className="devfolio">
               <DevfolioButton />
             </li>
           </>
