@@ -27,6 +27,7 @@
   font-size: large;
   line-height: 150%; /* 30px */
   margin-top: 0rem;
+  margin-right: 5%;
 }
 
 .h1Abt {
@@ -60,16 +61,10 @@
 }
 
 .linkTeam:hover {
-  background-color: #C6F806;
-  border: none;
-  color: black;
+  border-color: #C6F806;
   cursor: pointer;
 }
 
-.linkTeam:hover img{
-  height: 2.5rem;
-  width: 2.5rem;
-}
 
 
 /* Media Queries */
