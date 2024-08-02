@@ -4,10 +4,19 @@ import Navbar from "../Navbar/Navbar";
 import logo from "../../../public/images/logo-big.png";
 
 const Hero = () => {
+  const svg = `<svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M35.9661 18.6362H2.26113M18.956 2.42896L19.2712 34.8434M9.37494 28.0904L28.8523 9.18196M29.0361 28.0904L9.19105 9.18196" stroke="#0C0C0C" stroke-width="4.04763" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
+
+  const svgString = Array(50)
+    .fill(`HACKEMUP ${svg} HACKTHEFUTURE ${svg}  HACKBYTEBYBYTE ${svg}  `)
+    .join("");
+
   return (
     <div className="hero-main">
       <div className="sticknav">
-      <Navbar />
+        <Navbar />
       </div>
       <div className="hero-container">
         <div className="hero-logo">
@@ -43,21 +52,17 @@ const Hero = () => {
               <img src="images/mail.svg" alt=""></img>
             </button>
           </div>
-
         </div>
       </div>
 
       <div className="coming-soon-container">
         <div className="coming-soon">
-          <div className="coming-soon-text">
-            {Array(50)
-            .fill("HACKEMUP \u2731 HACKTHEFUTURE \u2731 HACKBYTEBYBYTE \u2731 ")
-            .join("")}
-          </div>
-          <div className="coming-soon-text">
-            {Array(50)
-            .fill("HACKEMUP \u2731 HACKTHEFUTURE \u2731 HACKBYTEBYBYTE \u2731 ")
-            .join("")}
+          <div
+            className="coming-soon-text"
+            dangerouslySetInnerHTML={{ __html: svgString }}
+          ></div>
+          <div className="coming-soon-text"  dangerouslySetInnerHTML={{ __html: svgString }}>
+            
           </div>
         </div>
       </div>
