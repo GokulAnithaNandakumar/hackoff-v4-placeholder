@@ -58,9 +58,16 @@
   padding: 0.7rem;
   gap: 0.8rem;
   width: 200px;
+  height: 59px;
   border-radius: 5.614px 0px 0px 5.614px;
   background: #c6f806;
   backdrop-filter: blur(4.678218364715576px);
+ 
+}
+.btn p{
+  font-family: "Atyp Display";
+font-size:22px ;
+color: #000;
 }
 .btn img {
   height: 1.6rem;

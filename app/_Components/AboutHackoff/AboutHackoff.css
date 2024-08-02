@@ -3,10 +3,10 @@
     height: 88.75rem;
 }
 .abth{
-    padding-left: 8rem;
+    padding-left: 6rem;
     padding-top: 2.5rem;
-    height: 98px;
     color: #C6F806;
+    margin-bottom: 0px;
     font-family: "Druk Wide Trial";
     font-size: 28px;
     font-style: normal;
@@ -78,7 +78,8 @@
 }
 
 .ops{
-    padding-top: 1rem;
+    padding-top: 0rem;
+    margin-top: 0px;
 }
 .img1,.img2,.img3{
     height: 100%;
