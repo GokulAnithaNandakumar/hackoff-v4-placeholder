@@ -8,8 +8,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 3%;
   justify-content: space-evenly;
-  min-height: 80vh;
 }
 .hero-logo {
   max-width: fit-content;
