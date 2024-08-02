@@ -3,30 +3,16 @@
     height: 88.75rem;
 }
 .abth{
-    padding-left: 6rem;
+    padding-left: 8rem;
     padding-top: 2.5rem;
+    height: 98px;
     color: #C6F806;
-    margin-bottom: 0px;
     font-family: "Druk Wide Trial";
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: 19.6px;
 }
-
-.img1{
-    height: 100%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-.phoneone{
-    position: absolute;
-    max-width: 100%;
-    height: auto;
-    align-items: center;
-}
-
 .grid{
     margin-top:6rem;
     height: 72rem;
@@ -78,17 +64,21 @@
 }
 
 .ops{
-    padding-top: 0rem;
-    margin-top: 0px;
+    font-size: 20px;
+    padding-top: 1rem;
 }
 .img1,.img2,.img3{
     height: 100%;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 .phoneone{
+    margin-top: 10%;
     position: absolute;
-    left: -4.5rem;
+    max-width: 100%;
+    height: auto; 
+    left: 0;
 }
 .phonetwo{
     position: absolute;
