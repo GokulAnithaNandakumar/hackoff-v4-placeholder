@@ -10,14 +10,13 @@ const Contact = () => {
     <div className='container4'>
       <h1 className='h1faq'>CONTACT US</h1>
       <div className='container-inner'>
-        <div className='section-title'>
-          <h1 className='emailLine'>Reach out to us at: <a href="mailto:Sankalpsharma250@gmail.com"> Sankalpsharma250@gmail.com </a></h1>
-        </div>
+        
         <div className='contact-container'>
           {[
             { name: 'UMANG NAULAKHA', role: 'EXECUTIVE CHAIRPERSON', phone: '+91 91043 31305' },
-            { name: 'TANVEE HARLALKA', role: 'EVENTS HEAD', phone: '+91 91043 31305' },
-            { name: 'NANDINI BHASKARAN', role: 'FINANCIAL HEAD', phone: '+91 91043 31305' },
+            { name: 'SANKALP SHARMA', role: 'EXECUTIVE SECRETARY', phone: '+91 96160 40112' },
+            { name: 'TANVEE HARLALKA', role: 'EVENTS HEAD', phone: '+91 79806 65214' },
+            { name: 'NANDINI BHASKARAN', role: 'FINANCIAL HEAD', phone: '+91 99789 41221' },
           ].map((contact, index) => (
             <>
             <div className='contact-card-desktop' key={index}>
