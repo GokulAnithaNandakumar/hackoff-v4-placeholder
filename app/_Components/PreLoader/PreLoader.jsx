@@ -18,7 +18,6 @@ const PreLoader = ({ setLoading }) => {
     <div id="preloader">
       <div id="logo">
         <img src="./Pasted Graphic 1 copy.png" alt="Logo" />
-        <p>v4.0</p>
       </div>
       <div id="loader"></div>
     </div>
