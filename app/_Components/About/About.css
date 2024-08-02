@@ -1,7 +1,10 @@
-.about {
-  background-color: black;
-  margin-left: 5.75rem;
+.abt{
+  background-color: #0c0c0c;
+}
 
+.about {
+  background-color: #0c0c0c;
+  margin-left: 5.75rem;
   margin-bottom: 10rem;
 }
 
@@ -67,6 +70,8 @@
   height: 2.5rem;
   width: 2.5rem;
 }
+
+
 /* Media Queries */
 @media (max-width: 1200px) {
   .gridDisplay {
