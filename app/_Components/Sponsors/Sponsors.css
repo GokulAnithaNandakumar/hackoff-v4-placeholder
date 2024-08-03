@@ -1,0 +1,137 @@
+.spons-container{
+  
+    height:150vh;
+}
+.partners{
+    display: flex;
+    margin-top: 150px;
+    height: 0;
+}
+.partners h2{
+    font-family: "Atyp Display";
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 22.4px;
+    height: 0px;
+    margin-left: 85px;
+}
+.part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+width: 100%;
+border-top: solid 2px #454545;
+border-bottom: solid 2px #454545;
+margin-top: 100px;
+}
+.space{
+    width: 60px;
+}
+.spons-container h1{
+    font-size: 60px;
+    line-height: 19.6px;
+    font-weight: 500;
+    font-family: "Druk Wide Trial";
+    color: #C6F806;
+    margin-left: 85px;
+}
+.partner1{
+    
+    display: flex;
+    border-right: dotted 2px #454545;
+    border-left: dotted 2px #454545;
+    width: 573px;
+}
+.partner2{
+    height: 250px;
+    width: 550px;
+    border-right: dotted 2px #454545;   
+    margin-left: 0;
+    width: 573px;
+}
+.partner2 img{
+    width:300px ;
+    padding: 10px;
+    margin-inline: 30px;
+}
+.partner1 img{
+    width:447px ;
+    padding: 10px;
+    margin-inline: 50px;
+}
+.sponsors{
+    
+    display: flex;
+    margin-top: 400px;
+  
+}
+.sponsors h2{
+    margin-top: 15px;
+    
+}
+.spons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+width: 100%;
+border-top: solid 2px #454545;
+border-bottom: solid 2px #454545;
+margin-top: 100px;
+
+
+}
+.sponsors h2{
+    font-family: "Atyp Display";
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 22.4px;
+    height: 0px;
+    margin-left: 75px;
+}
+
+.sponsor1 {
+    margin-left: 0;
+    display: flex;
+   
+    border-left: dotted 2px #454545;
+    width: 430px;
+}
+.sponsor1 img{
+    width:335px ;
+    padding: 10px;
+    margin-left: 40px;
+    
+}
+.sponsor2 {
+    margin-left: 0;
+    display: flex;
+   
+    border-left: dotted 2px #454545;
+    width: 430px;
+}
+.sponsor2 img{
+    width:335px ;
+    padding: 10px;
+    margin-inline: 20px;
+}
+.sponsor3{
+    margin-left: 0;
+    display: flex;
+  
+    border-left: dotted 2px #454545;
+    width: 430px;
+    height: 200px;
+}
+.space1{
+        width: 100px;
+    height: 200px;  
+}
+.space2{
+  
+    width: 100px;
+    height: 200px;
+    border-left: dotted 2px #454545;    
+
+}

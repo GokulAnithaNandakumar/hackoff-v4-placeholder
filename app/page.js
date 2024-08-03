@@ -10,6 +10,7 @@ import Banner from "./_Components/Banner/Banner";
 import Contact from "./_Components/Contact/Contact";
 import React from "react";
 import PreLoader from "./_Components/PreLoader/PreLoader";
+import Sponsors from "./_Components/Sponsors/Sponsors";
 
 export default function Home() {
   const [loading, setLoading] = React.useState(true); 
@@ -28,6 +29,9 @@ export default function Home() {
       <div id="about">
         <About/>
       </div>
+      <div id="sponsors">
+        <Sponsors/>
+        </div>
       <div id="faqs">
         <Faq/>
       </div>
