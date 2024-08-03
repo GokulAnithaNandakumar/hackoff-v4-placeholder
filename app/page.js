@@ -11,25 +11,41 @@ import Contact from "./_Components/Contact/Contact";
 import React from "react";
 import PreLoader from "./_Components/PreLoader/PreLoader";
 
+// export default function Home() {
+//   const [loading, setLoading] = React.useState(true); 
+//   return (
+//     <>
+//     {loading && <PreLoader setLoading={setLoading} />}
+//     <div className={styles.main}>
+//    {!loading && <div>
+//       <div className="hero-marquee">
+//         <Hero/>
+//         <Tagline/>
+//       </div>
+//       <AboutHackoff/>
+//       <About/>
+//       <Faq/>
+//       <Banner/>
+//       <Contact/>
+//       <Footer/>
+//     </div>}
+//     </div>
+//     </>
+//   );
+// }
 export default function Home() {
   const [loading, setLoading] = React.useState(true); 
   return (
-    <>
-    {loading && <PreLoader setLoading={setLoading} />}
-    <div className={styles.main}>
-   {!loading && <div>
-      <div className="hero-marquee">
+    <div>
         <Hero/>
         <Tagline/>
-      </div>
+
       <AboutHackoff/>
       <About/>
       <Faq/>
       <Banner/>
       <Contact/>
       <Footer/>
-    </div>}
     </div>
-    </>
   );
 }
