@@ -1,12 +1,13 @@
 .spons-container{
-  
-    height:150vh;
+  margin-bottom: 29%;
 }
+
 .partners{
     display: flex;
     margin-top: 150px;
     height: 0;
 }
+
 .partners h2{
     font-family: "Atyp Display";
     font-weight: 400;
@@ -20,14 +21,16 @@
     flex-direction: row;
     align-items: center;
     position: absolute;
-width: 100%;
-border-top: solid 2px #454545;
-border-bottom: solid 2px #454545;
-margin-top: 100px;
+    width: 100%;
+    border-top: solid 2px #454545;
+    border-bottom: solid 2px #454545;
+    margin-top: 100px;
 }
+
 .space{
-    width: 60px;
+    width: 5%;
 }
+
 .spons-container h1{
     font-size: 60px;
     line-height: 19.6px;
@@ -36,13 +39,19 @@ margin-top: 100px;
     color: #C6F806;
     margin-left: 85px;
 }
+
 .partner1{
-    
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     border-right: dotted 2px #454545;
     border-left: dotted 2px #454545;
-    width: 573px;
 }
+
+.devsponsor{
+    width: 60%;
+}
+
 .partner2{
     height: 250px;
     width: 550px;
@@ -56,16 +65,14 @@ margin-top: 100px;
     margin-inline: 30px;
 }
 .partner1 img{
-    width:447px ;
-    padding: 10px;
-    margin-inline: 50px;
+    padding: 2%;
 }
+
 .sponsors{
-    
     display: flex;
-    margin-top: 400px;
-  
+    margin-top: 31%;
 }
+
 .sponsors h2{
     margin-top: 15px;
     
@@ -75,13 +82,14 @@ margin-top: 100px;
     flex-direction: row;
     align-items: center;
     position: absolute;
-width: 100%;
-border-top: solid 2px #454545;
-border-bottom: solid 2px #454545;
-margin-top: 100px;
+    width: 100%;
+    border-top: solid 2px #454545;
+    border-bottom: solid 2px #454545;
+    margin-top: 100px;
 
 
 }
+
 .sponsors h2{
     font-family: "Atyp Display";
     font-weight: 400;
@@ -99,7 +107,7 @@ margin-top: 100px;
     width: 430px;
 }
 .sponsor1 img{
-    width:335px ;
+    width:75% ;
     padding: 10px;
     margin-inline: 20px;
     
@@ -112,7 +120,7 @@ margin-top: 100px;
     width: 430px;
 }
 .sponsor2 img{
-    width:335px ;
+    width:75% ;
     padding: 10px;
     margin-inline: 20px;
 }
