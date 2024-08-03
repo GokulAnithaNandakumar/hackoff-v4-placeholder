@@ -46,11 +46,11 @@
     justify-content: center;
     border-right: dotted 2px #454545;
     border-left: dotted 2px #454545;
+    height:250px ;
+    
 }
 
-.devsponsor{
-    width: 60%;
-}
+
 
 .partner2{
     height: 250px;
@@ -102,12 +102,12 @@
 .sponsor1 {
     margin-left: 0;
     display: flex;
-   
+   height: 200px;
     border-left: dotted 2px #454545;
     width: 430px;
 }
 .sponsor1 img{
-    width:75% ;
+    width:92% ;
     padding: 10px;
     margin-inline: 20px;
     
@@ -115,12 +115,12 @@
 .sponsor2 {
     margin-left: 0;
     display: flex;
-   
+   height: 200px;
     border-left: dotted 2px #454545;
     width: 430px;
 }
 .sponsor2 img{
-    width:75% ;
+    width:92% ;
     padding: 10px;
     margin-inline: 20px;
 }
