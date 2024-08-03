@@ -8,8 +8,12 @@ nav {
   top: 0;
   width: 100%; /* Make sure the navbar spans the full width */
   background: #101010; /* Ensure the background is set */
+  color: white;
 }
-
+ul a {
+  text-decoration: none;
+  color: white;
+}
 nav ul {
   display: flex;
   align-items: center;

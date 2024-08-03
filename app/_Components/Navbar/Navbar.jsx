@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 import "./Hamburger.css";
 
@@ -16,13 +17,8 @@ const Navbar = () => {
       setIsMobile(window.innerWidth <= 768);
     };
 
-    // Set initial value on client side
     handleResize();
-
-    // Add event listener for window resize
     window.addEventListener("resize", handleResize);
-
-    // Cleanup event listener on component unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -43,22 +39,22 @@ const Navbar = () => {
               </span>
             </button>
             <ul className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
-              <li>Home</li>
-              <li>About</li>
-              <li>Team</li>
-              <li>FAQs</li>
-              <li>Sponsors</li>
-              <li>Contact Us</li>
+              <li><Link to="hero" smooth={true} duration={500}>Home</Link></li>
+              <li><Link to="abouthackoff" smooth={true} duration={500}>About</Link></li>
+              <li><Link to="team" smooth={true} duration={500}>Team</Link></li>
+              <li><Link to="faqs" smooth={true} duration={500}>FAQs</Link></li>
+              <li><Link to="sponsors" smooth={true} duration={500}>Sponsors</Link></li>
+              <li><Link to="contact" smooth={true} duration={500}>Contact Us</Link></li>
             </ul>
           </li>
         ) : (
           <>
-            <li>Home</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>FAQs</li>
-            <li>Sponsors</li>
-            <li>Contact Us</li>
+            <li><Link to="hero" smooth={true} duration={500}>Home</Link></li>
+            <li><Link to="abouthackoff" smooth={true} duration={500}>About</Link></li>
+            <li><Link to="about" smooth={true} duration={500}>Team</Link></li>
+            <li><Link to="faqs" smooth={true} duration={500}>FAQs</Link></li>
+            <li><Link to="sponsors" smooth={true} duration={500}>Sponsors</Link></li>
+            <li><Link to="contact" smooth={true} duration={500}>Contact Us</Link></li>
             <li className="devfolio">
               <DevfolioButton />
             </li>

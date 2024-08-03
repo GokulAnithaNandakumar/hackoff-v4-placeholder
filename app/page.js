@@ -1,7 +1,7 @@
 "use client";
 import styles from "./page.module.css";
-import Hero from './_Components/Hero/Hero'
-import Tagline from './_Components/Tagline/Tagline'
+import Hero from './_Components/Hero/Hero';
+import Tagline from './_Components/Tagline/Tagline';
 import Footer from "./_Components/Footer/Footer";
 import AboutHackoff from "./_Components/AboutHackoff/AboutHackoff";
 import About from "./_Components/About/About";
@@ -17,16 +17,26 @@ export default function Home() {
     <>
     {loading && <PreLoader setLoading={setLoading} />}
     <div className={styles.main}>
-   {!loading && <div>
-      <div className="hero-marquee">
-        <Hero/>
+     {!loading && <div>
+      <div id="hero" className="hero-marquee">
+        <Hero />
       </div>
-      <Tagline/>
-      <AboutHackoff/>
-      <About/>
-      <Faq/>
-      <Banner/>
-      <Contact/>
+      <Tagline />
+      <div id="abouthackoff">
+        <AboutHackoff />
+      </div>
+      <div id="about">
+        <About/>
+      </div>
+      <div id="faqs">
+        <Faq/>
+      </div>
+      <div id="banner">
+        <Banner/>
+      </div>
+      <div id="contact">
+        <Contact/>
+      </div>
       <Footer/>
     </div>}
     </div>
