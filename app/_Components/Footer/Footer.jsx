@@ -24,7 +24,7 @@ const Footer = () => {
                 <img src="./images/iet-logo.png" height="100rem" />
               </div>
             </div>
-            <div className="link">
+         <a href="https://www.ietvit.co/" target="_blank">  <div className="link">
               <h6>GO TO WEBSITE</h6>
              <div class="imgBox">
 
@@ -35,7 +35,7 @@ const Footer = () => {
 </svg>
 
              </div>
-            </div>
+            </div></a> 
           </div>
           <div className="f2">
             <div className="menu">
