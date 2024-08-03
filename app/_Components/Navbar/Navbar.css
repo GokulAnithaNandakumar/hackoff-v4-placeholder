@@ -44,7 +44,7 @@ right: 10%;
   
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   color: #c6f806;
   transform: scale(1.05);
   transition: 0.1s;
