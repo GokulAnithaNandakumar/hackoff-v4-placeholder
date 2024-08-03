@@ -168,6 +168,11 @@
     background-color: #fff;
     font-size: 1.15rem;
 }
+.b:hover{
+    color: #C6F806;
+
+    cursor: default;
+}
 
 .imgBox{
     background-color: #C6F806;
