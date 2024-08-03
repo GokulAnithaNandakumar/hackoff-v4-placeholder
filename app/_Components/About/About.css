@@ -14,6 +14,29 @@
   gap: 1rem;
   /* padding: 1rem; */
 }
+.imgBox1{
+  background-color: #C6F806;
+  width: 32px;
+  height: 32px;
+}
+.linkTeam svg{
+  transition: transform 0.3s ease-in-out;
+ 
+}
+.linkTeam svg:hover{
+ 
+  animation: bounceZ 0.4s ease-in-out;
+  transform: scale(1.42);
+  
+}
+@keyframes bounceZ {
+  0%, 100% {
+    transform: scale(1.35); /* Start and end at the original size */
+  }
+  50% {
+    transform: scale(1.65); /* Scale up to 1.1 times its original size */
+  }
+}
 
 .AboutP {
   display: flex;

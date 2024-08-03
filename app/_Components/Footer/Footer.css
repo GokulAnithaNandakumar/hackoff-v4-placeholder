@@ -15,7 +15,7 @@
     gap: 1.5rem;
     font-size: 1.5rem;
     width: fit-content;
-    padding: 0.9rem 1rem;
+    padding: 0.6rem 1rem;
     text-align: center;
     line-height: 2rem;
     background-color: transparent;
@@ -25,10 +25,34 @@
 
 
 .link:hover {
-    background-color: white;
-    color: black;
+    border-color: #C6F806;
+   
     cursor: pointer;
+    transition: 0.2s;
 }
+.imgBox{
+    background-color: #C6F806;
+    width: 32px;
+    height: 32px;
+}
+.link svg{
+    transition: transform 0.3s ease-in-out;
+   
+}
+.link svg:hover{
+   
+    animation: bounceZ 0.4s ease-in-out;
+    transform: scale(1.42);
+    
+}
+@keyframes bounceZ {
+    0%, 100% {
+      transform: scale(1.35); /* Start and end at the original size */
+    }
+    50% {
+      transform: scale(1.65); /* Scale up to 1.1 times its original size */
+    }
+  }
 
 
 .cont1 {
@@ -164,6 +188,12 @@
     color: black;
     background-color: #fff;
     font-size: 1.15rem;
+    
+}
+.b:hover{
+    background-color: #C6F806;
+    transition: 0.3s;
+    cursor:default;
 }
 
 
