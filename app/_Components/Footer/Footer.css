@@ -25,8 +25,7 @@
 
 
 .link:hover {
-    background-color: white;
-    color: black;
+    border-color: #C6F806;
     cursor: pointer;
 }
 
@@ -170,7 +169,29 @@
     font-size: 1.15rem;
 }
 
-
+.imgBox{
+    background-color: #C6F806;
+    width: 32px;
+    height: 32px;
+  }
+  .link svg{
+    transition: transform 0.3s ease-in-out;
+   
+  }
+  .link svg:hover{
+   
+    animation: bounceZ 0.3s ease-in-out;
+    transform: scale(1.42);
+    
+  }
+  @keyframes bounceZ {
+    0%, 100% {
+      transform: scale(1.35); /* Start and end at the original size */
+    }
+    50% {
+      transform: scale(1.65); /* Scale up to 1.1 times its original size */
+    }
+  }
 
 @media (max-width: 768px) {
     #footer {
