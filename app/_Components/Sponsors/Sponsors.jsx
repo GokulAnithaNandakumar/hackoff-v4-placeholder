@@ -9,7 +9,7 @@ const Sponsors = () => {
         <div className="part">
         <div className="space"></div>
             <div className="partner1">
-                <img src="./images/devfoliobrandlogo.png" alt="devfolio-logo" />
+                <img className="devsponsor" src="./images/devfoliobrandlogo.png" alt="devfolio-logo" />
             </div>
             <div className="partner2"></div>
             <div className="partner2"></div>
