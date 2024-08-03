@@ -36,21 +36,25 @@ const Hero = () => {
             </div>
           </div>
           <div className="socials-container">
-            <button className="social" key="facebook">
+           <a href="https://discord.gg/yVNGzx94nK" target="_blank"> <button className="social" key="facebook">
               <img src="images/facebook.svg" alt=""></img>
-            </button>
-            <button className="social" key="twitter">
+            </button></a>
+
+          <a href="https://x.com/theietvit?lang=en" target="_blank"> <button className="social" key="twitter">
               <img src="images/x.svg" alt=""></img>
-            </button>
-            <button className="social" key="linkedin">
+            </button></a> 
+
+            <a href="https://www.linkedin.com/company/ietvit/?originalSubdomain=in" target="_blank"> <button className="social" key="linkedin">
               <img src="images/linkedin.svg" alt=""></img>
-            </button>
-            <button className="social" key="instagram">
+            </button></a>
+
+           <a href="https://www.instagram.com/ietvit/" target="_blank"> <button className="social" key="instagram">
               <img src="images/instagram.svg" alt=""></img>
-            </button>
-            <button className="social" key="mail">
+            </button></a>
+
+           <a href="https://mail.google.com/mail/?view=cm&to=iet@vit.ac.in" target="_blank" > <button className="social" key="mail">
               <img src="images/mail.svg" alt=""></img>
-            </button>
+            </button></a>
           </div>
         </div>
       </div>
