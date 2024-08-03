@@ -11,15 +11,14 @@ import Contact from "./_Components/Contact/Contact";
 import React from "react";
 import PreLoader from "./_Components/PreLoader/PreLoader";
 import Head from 'next/head';
-import favicon from '../public/images/favicon.ico';
 
 export default function Home() {
   const [loading, setLoading] = React.useState(true); 
   return (
     <>
       <Head>
-        <title>HackOff V4.0</title>
-        <link rel="icon" href={favicon}/>
+        <title>Your Website Title</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       {loading && <PreLoader setLoading={setLoading} />}
       <div className={styles.main}>
