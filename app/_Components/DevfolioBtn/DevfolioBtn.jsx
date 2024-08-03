@@ -17,7 +17,7 @@ const DevfolioButton = () => {
     <div
       className="apply-button"
       data-hackathon-slug="hackoffv4"
-      data-button-theme="dark"
+      data-button-theme="dark-inverted"
     >
     </div>
   );

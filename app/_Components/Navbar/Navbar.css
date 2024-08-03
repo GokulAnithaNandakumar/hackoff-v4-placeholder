@@ -17,6 +17,7 @@ nav ul {
   list-style: none;
   padding: 0 2rem;
   margin: 0; /* Remove default margin */
+  
 }
 
 nav ul li {
@@ -27,11 +28,12 @@ nav ul li {
   cursor: pointer;
   color: white;
   font-weight: 300;
+ 
 }
 li.devfolio{
   display: flex;
-position: relative;
-left: 10%;
+position: absolute;
+left: 70%;
 right: 10%;
   
 }
