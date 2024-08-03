@@ -36,7 +36,7 @@ export default function Home() {
     });
 
     // Wait for the preloader animation to complete
-    const preloaderDuration = 3000; // Duration of the preloader animation
+    const preloaderDuration = 3800 ; // Duration of the preloader animation
     const preloaderPromise = new Promise((resolve) => {
       setTimeout(resolve, preloaderDuration);
     });
