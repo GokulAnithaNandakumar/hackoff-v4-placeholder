@@ -1,11 +1,13 @@
 nav {
   display: flex;
-  font-family: "Rethink Sans", sans-serif;
+  font-family: "Rethink Sans";
+  font-weight: 600;
+  line-height: 26.04px;
   z-index: 1000; /* Ensure the navbar stays on top */
   position: fixed;
   top: 0;
   width: 100%; /* Make sure the navbar spans the full width */
-  background-color: #000; /* Ensure the background is set */
+  background: #101010; /* Ensure the background is set */
 }
 
 nav ul {
@@ -33,7 +35,7 @@ nav ul li {
 li.devfolio{
   display: flex;
 position: absolute;
-left: 70%;
+left: 74%;
 right: 10%;
   
 }
