@@ -112,12 +112,11 @@ a {
 .tab-accordion {
   width: 100%;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  /* border-radius: 10px; */
-  /* border: 1px solid #cecece; */
   border-bottom: 1px dashed #454545;
   background: transparent;
   margin-bottom: 20px;
   overflow: hidden;
+  height: 100%;
 }
 
 .tab-accordion:last-child {
