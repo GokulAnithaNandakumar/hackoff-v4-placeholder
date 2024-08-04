@@ -113,6 +113,31 @@ a {
   text-decoration: none;
 }
 
+/* For Webkit browsers like Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 12px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* black color for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C6F806; /* neon green color for the scrollbar thumb */
+  border-radius: 10px; /* rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C6F806; /* darker green on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-color: #C6F806 #454444; /* neon green thumb and black track */
+  scrollbar-width: thin; /* thin scrollbar */
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
