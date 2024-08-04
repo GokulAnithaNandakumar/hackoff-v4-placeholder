@@ -73,7 +73,7 @@ const Faq = () => {
                 <div
                   ref={el => (contentRefs.current[index] = el)}
                   className={`faq-ans desWrapper ${activeIndex === index ? 'open' : ''}`}
-                  style={{ maxHeight: activeIndex === index ? heights[index] : 0 }}
+                  style={{ maxHeight: activeIndex === index ? heights[index] : 0, backgroundColor: '#0c0c0c' }}
                 >
                   <p>{faq.answer}</p>
                 </div>
