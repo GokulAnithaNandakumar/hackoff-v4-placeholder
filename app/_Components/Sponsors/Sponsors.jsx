@@ -29,8 +29,9 @@ const Sponsors = () => {
                 <img src="./images/ethindia.png" alt="ETHINDIA LOGO" />
             </div>
             <div className="sponsor3">
+                <img src="./images/fold.png" alt="FOLD LOGO" />
             </div>
-            <div className="sponsor3"></div>
+            <div className="sponsor4"></div>
             <div className="space2"></div>
             
         </div>
