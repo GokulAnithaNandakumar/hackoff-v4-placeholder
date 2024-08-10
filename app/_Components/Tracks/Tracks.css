@@ -1,0 +1,93 @@
+.tracks-container {
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 13%;
+  margin-top: 10%;
+}
+
+.tracks-descr{
+  font-family: "Atyp Display";
+  color: #fff;
+  margin-left: 7%;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.tracks-title {
+  font-family: "Druk Wide Trial";
+  margin-left: 7%;
+  color: #C6F806;
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.tracks-description {
+  font-family: "Atyp Display";
+  color: #fff;
+  margin-left: 7%;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(3, 2fr) 0.5fr; /* Adjust grid column widths */
+  border-top: 1px dashed #444;
+  border-bottom: 1px dashed #444;
+  gap: 0px; /* Remove any gap between grid items */
+}
+
+.track-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-left: 1px dashed #444;
+  border-right: 1px dashed #444;
+  border-bottom: 1px dashed #444; /* Add bottom border for horizontal lines */
+  text-align: center;
+  height: 15rem; /* Set a consistent height for all items */
+}
+
+.track-image {
+  height: auto;
+  width: 60px;
+  margin-bottom: 5%;
+}
+
+.track-title {
+  color: #C6F806;
+  font-size: 1.5em;
+  margin-bottom: 5%;
+  font-family: "Atyp Display";
+}
+
+.track-description {
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0; /* Remove any extra margins */
+}
+
+.empty-space {
+  border-left: 1px dashed #444;
+  border-right: 1px dashed #444;
+}
+
+/* Adjustments to remove unwanted borders */
+.track-item:nth-child(2),
+.track-item:nth-child(6) {
+  border-left: none;
+}
+
+.track-item:nth-child(4),
+.track-item:nth-child(8) {
+  border-right: none;
+}
+
+.track-item:nth-child(7),
+.track-item:nth-child(8),
+.track-item:nth-child(9) {
+  border-bottom: none; /* Remove bottom border from the last row */
+}
