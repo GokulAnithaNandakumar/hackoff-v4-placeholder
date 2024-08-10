@@ -11,6 +11,7 @@ import Contact from "./_Components/Contact/Contact";
 import React from "react";
 import PreLoader from "./_Components/PreLoader/PreLoader";
 import Sponsors from "./_Components/Sponsors/Sponsors";
+import Tracks from "./_Components/Tracks/Tracks";
 
 export default function Home() {
   const [loading, setLoading] = React.useState(true); 
@@ -29,6 +30,9 @@ export default function Home() {
       <div id="about">
         <About/>
       </div>
+      <div id="Tracks">
+        <Tracks/>
+        </div>
       <div id="sponsors">
         <Sponsors/>
         </div>
