@@ -20,7 +20,7 @@ const Faq = () => {
   const faqData = [
     {
       question: "WHAT IS HACKOFF?",
-      answer: "Hackoff is a global 48-hour hackathon in collaboration with Major League Hacking (MLH). Participants build innovative projects in areas like Data Science, AI, Robotics, IoT, AR/VR, and Blockchain. Having had over 3,500 participants from 15+ countries, expert mentors, workshops, and exciting prizes, Hackoff is an unmissable event for tech enthusiasts."
+      answer: "Hackoff is a global 36-hour hackathon where participants build innovative projects in areas like Data Science, AI, Robotics, IoT, AR/VR, and Blockchain. Having had over 3,500 participants from 15+ countries, expert mentors, workshops, and exciting prizes, Hackoff is an unmissable event for tech enthusiasts."
     },
     {
       question: "WHO ALL CAN PARTICIPATE?",
