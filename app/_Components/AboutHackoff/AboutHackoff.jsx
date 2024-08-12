@@ -14,7 +14,7 @@ const AboutHackoff=()=>{
                             <div className="oneup">
                                 <h1>About Hackoff</h1>
                                 <div className="ops">
-                                <p>Hackoff is a global 36-hour hackathon in collaboration with Major League Hacking (MLH). Participants build innovative projects in areas like Data Science, AI, Robotics, IoT, AR/VR, and Blockchain.</p>
+                                <p>Hackoff is a global 36-hour hackathon where participants build innovative projects in areas like Data Science, AI, Robotics, IoT, AR/VR, and Blockchain.</p>
                                 <p>Having had over over 3,500 participants from 15+ countries, expert mentors, workshops, and exciting prizes, Hackoff is an unmissable event for tech enthusiasts.</p>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ const AboutHackoff=()=>{
                         <div className="twoup">
                                 <h1>Global Collaboration</h1>
                                 <div className="ops">
-                                    <p>Have partnered with Major League Hacking (MLH) for a world-class hackathon experience for previous editions of the hack.</p>
+                                    <p>Collaborated with leading organizations to deliver a world-class hackathon experience in previous editions.</p>
                                 </div>
                                 </div>
                             <div className="img2">
