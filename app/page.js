@@ -12,6 +12,7 @@ import React from "react";
 import PreLoader from "./_Components/PreLoader/PreLoader";
 import Sponsors from "./_Components/Sponsors/Sponsors";
 import Tracks from "./_Components/Tracks/Tracks";
+import Aboutto from "./_Components/aboutto/aboutto";
 
 export default function Home() {
   const [loading, setLoading] = React.useState(true); 
@@ -25,7 +26,7 @@ export default function Home() {
       </div>
       <Tagline />
       <div id="abouthackoff">
-        <AboutHackoff />
+      <Aboutto/>
       </div>
       <div id="about">
         <About/>
