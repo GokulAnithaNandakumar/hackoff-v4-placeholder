@@ -10,7 +10,8 @@ const Aboutto = () => {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      path: '/illustration.json',
+      // Use the raw GitHub link to fetch the JSON file
+      path: 'https://raw.githubusercontent.com/GokulAnithaNandakumar/lottie-host/main/Illustration.json',
     });
 
     if (animation) {
