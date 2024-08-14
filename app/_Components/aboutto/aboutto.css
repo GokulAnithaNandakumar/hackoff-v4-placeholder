@@ -1,0 +1,52 @@
+.aboutto-container {
+  margin-bottom: 10%;
+}
+
+.aboutto-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 2px dashed #444;
+  color: white;
+  width: 100%;
+  padding-left: 3%;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.aboutto-title {
+  font-family: "Druk Wide Trial";
+  margin-left: 7%;
+  color: #C6F806;
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.aboutto-animation {
+  margin-right: 2%;
+  margin-left: 5%;
+}
+
+
+.aboutto-description {
+  font-family: "Atyp Display";
+  color: #fff;
+  margin-left: 6%;
+  font-size: 2.5vw;
+}
+
+.aboutto-grid {
+  display: grid;
+  grid-template-columns: 0.2fr 2.1fr 1.5fr 0.2fr;
+  border-top: 1px dashed #444;
+  border-bottom: 1px dashed #444;
+  gap: 0px;
+}
+
+.aboutto-spacer-left {
+  border-right: 1px dashed #444;
+}
+
+.aboutto-spacer-right {
+  border-left: 1px dashed #444;
+}
