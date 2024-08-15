@@ -30,10 +30,12 @@
       background-color: #c6f806; }
   
   .hamburger-box {
-    width: 0;
-    height: 24px;
+    width: 100%;
+    right: 15%;
+  
+    top: 26%;
     display: inline-block;
-    position: relative; 
+    position: absolute; 
 
 
 }
@@ -41,7 +43,11 @@
   .hamburger-inner {
     display: block;
     top: 50%;
-  right:50px;
+  right:200%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
   position: absolute;
   
   

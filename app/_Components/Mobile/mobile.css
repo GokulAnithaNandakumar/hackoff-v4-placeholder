@@ -1,6 +1,7 @@
 .mobile-container{
     z-index: 100;
     width: 100%;
+    overflow-y: hidden; 
     height: 110vh;
     display: flex;
     justify-content: center;
@@ -9,7 +10,7 @@
    position: fixed;
 }
 .sub-container{
-    border: 2px dotted  #454545;
+    border: 2px dashed  #454545;
     width: 327px;
     height: 601px;
     display: flex;
