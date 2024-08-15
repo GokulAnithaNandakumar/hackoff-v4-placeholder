@@ -54,3 +54,15 @@
 @keyframes load {
   to { width: 100%; }
 }
+
+@media (max-width: 768px){
+
+  #logo img {
+    width: 60vw;
+    height: auto;
+  }
+
+  #loader{
+    width: 75%;
+  }
+}
