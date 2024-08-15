@@ -6,16 +6,18 @@
     justify-content: center;
     align-items: center;
    background-color: #0C0C0C;
+   position: fixed;
 }
 .sub-container{
     border: 2px dotted  #454545;
-    width: 350px;
+    width: 327px;
     height: 601px;
     display: flex;
     justify-content: center;
     align-items: center;
    background-color: #0C0C0C;
-   
+   position: relative;
+   right: 20px;
     
 }
 
@@ -26,7 +28,7 @@ li{
     font-weight: 600;
     line-height: 26.04px;
     text-align: center;
-    padding-inline: 10px;
+    
    
     
 }

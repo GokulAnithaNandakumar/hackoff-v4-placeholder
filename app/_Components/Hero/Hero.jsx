@@ -14,9 +14,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
   const svgString = Array(50)
     .fill(`HACKEMUP ${svg} HACKTHEFUTURE ${svg}  HACKBYTEBYBYTE ${svg}  `)
     .join("");
-    if(!isMenuOpen){
-      document.body.style.overflow = "auto";
-    }
+if(!isMenuOpen){
+  document.body.style.overflow = "auto";
+}
   return (
     <div className="hero-main">
 
