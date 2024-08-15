@@ -12,6 +12,7 @@ import PreLoader from "./_Components/PreLoader/PreLoader";
 import Sponsors from "./_Components/Sponsors/Sponsors";
 import Tracks from "./_Components/Tracks/Tracks";
 import Aboutto from "./_Components/aboutto/aboutto";
+import MobileMenu from "./_Components/Mobile/MobileMenu";
 
 export default function Home() {
   const [loading, setLoading] = React.useState(true); 
@@ -20,6 +21,7 @@ export default function Home() {
     {loading && <PreLoader setLoading={setLoading} />}
     <div className={styles.main}>
      {!loading && <div>
+     
       <div id="hero" className="hero-marquee">
         <Hero />
       </div>

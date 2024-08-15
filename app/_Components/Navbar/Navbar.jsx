@@ -8,9 +8,10 @@ import "./Hamburger.css";
 
 const DevfolioButton = dynamic(() => import("../DevfolioBtn/DevfolioBtn"), { ssr: false });
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const { isMenuOpen, click} = props;
   const [isMobile, setIsMobile] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+ 
 
   useEffect(() => {
     const handleResize = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
           <img src="images/logo-small.png" alt="Logo" />
         </div>
         {isMobile ? (
-          <li onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <li onClick={() =>click(!isMenuOpen)}>
             <button
               className={`hamburger hamburger--slider ${isMenuOpen ? "is-active" : ""}`}
               type="button"
@@ -38,14 +39,7 @@ const Navbar = () => {
                 <span className="hamburger-inner"></span>
               </span>
             </button>
-            <ul className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
-              <li><Link to="hero" smooth={true} duration={500}>Home</Link></li>
-              <li><Link to="abouthackoff" smooth={true} duration={500}>About</Link></li>
-              <li><Link to="team" smooth={true} duration={500}>Team</Link></li>
-              <li><Link to="sponsors" smooth={true} duration={500}>Sponsors</Link></li>
-              <li><Link to="faqs" smooth={true} duration={500}>FAQs</Link></li>
-              <li><Link to="contact" smooth={true} duration={500}>Contact Us</Link></li>
-            </ul>
+           
           </li>
         ) : (
           <>

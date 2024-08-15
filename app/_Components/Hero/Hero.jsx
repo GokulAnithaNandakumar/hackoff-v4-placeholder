@@ -2,23 +2,32 @@ import React from "react";
 import "./Hero.css";
 import Navbar from "../Navbar/Navbar";
 import logo from "../../../public/images/logo-big.png";
+import MobileMenu from "../Mobile/MobileMenu";
+import { useState } from "react";
 
 const Hero = () => {
   const svg = `<svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M35.9661 18.6362H2.26113M18.956 2.42896L19.2712 34.8434M9.37494 28.0904L28.8523 9.18196M29.0361 28.0904L9.19105 9.18196" stroke="#0C0C0C" stroke-width="4.04763" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 `;
-
+const [isMenuOpen, setIsMenuOpen] = useState(false);
   const svgString = Array(50)
     .fill(`HACKEMUP ${svg} HACKTHEFUTURE ${svg}  HACKBYTEBYBYTE ${svg}  `)
     .join("");
-
+    if(!isMenuOpen){
+      document.body.style.overflow = "auto";
+    }
   return (
     <div className="hero-main">
+
       <div className="sticknav">
-        <Navbar />
+        <Navbar isMenuOpen={isMenuOpen} click={setIsMenuOpen}/>
       </div>
-      <div className="hero-container">
+      <div className="menu-overlay">
+      {isMenuOpen && <MobileMenu click={setIsMenuOpen} isMenuOpen={isMenuOpen}/>}
+      </div>
+       <div className="hero-container">
+    
         <div className="hero-logo">
           <img src="images/GamePad.png" alt="" />
         </div>

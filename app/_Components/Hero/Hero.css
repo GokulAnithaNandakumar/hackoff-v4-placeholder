@@ -10,8 +10,14 @@
   align-items: center;
   margin-top: 3%;
   justify-content: space-evenly;
+  z-index: 1;
 }
-
+.menu-overlay{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
 .hero-logo {
   width: 54%;
   max-width: fit-content;
@@ -147,6 +153,7 @@ p {
   align-items: center;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .coming-soon {

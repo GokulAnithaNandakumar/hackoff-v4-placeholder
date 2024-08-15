@@ -62,7 +62,7 @@ nav ul li img {
 .mobile {
   justify-content: space-between;
   padding: 0 1rem;
-  width: 15rem;
+  width: 100%;
 }
 
 .navbar-menu {
@@ -92,7 +92,7 @@ nav ul li img {
 
 .hamburger-box {
   height: 20px !important;
-  width: 32px !important;
+  width: 0 !important;
   margin: auto;
   color: #c6f806;
 }
@@ -130,4 +130,10 @@ nav ul li img {
 .devfolio-btn img {
   width: 10%;
   margin-right: 5px;
+}
+@media (max-width: 768px) {
+  .navbar-logo-container img{
+    width: 70%;
+  }
+  
 }
