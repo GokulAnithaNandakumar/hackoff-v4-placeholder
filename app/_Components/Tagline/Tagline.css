@@ -95,6 +95,20 @@
   }
   
   @media (max-width: 768px) {
+
+    .lottie-animation-sunglasses {
+        width: 100px;
+        height: 100px;
+        margin-left: 85%;
+        margin-top: -15%;
+      }
+    
+      .lottie-animation-heart {
+        width: 70px;
+        height: 55px;
+        margin-left: 50%;
+      }
+
     .tagline {
       font-size: 21px;
       line-height: 32px;
