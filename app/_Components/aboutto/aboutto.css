@@ -11,7 +11,6 @@
   width: 100%;
   padding-left: 3%;
   font-size: 2vw;
-  font-weight: bold;
 }
 
 .aboutto-title {
@@ -26,7 +25,6 @@
   margin-right: 2%;
   margin-left: 5%;
 }
-
 
 .aboutto-description {
   font-family: "Atyp Display";
@@ -50,3 +48,51 @@
 .aboutto-spacer-right {
   border-left: 1px dashed #444;
 }
+
+@media (max-width: 768px) {
+  .aboutto-grid {
+    grid-template-columns: 1fr;
+    border: 2px dashed #444;
+    margin: 7%;
+  }
+
+  .aboutto-content {
+    margin: 15%;
+    order: 2;
+    border-right: none;
+    padding-left: 0;
+    font-size: 12px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 5%;
+  }
+
+  .aboutto-animation {
+    order: 1;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutto-title {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .aboutto-description {
+    font-size: 4vw;
+    margin-left: 10px;
+    
+  }
+
+  .aboutto-title {
+    font-family: "Druk Wide Trial";
+    margin-left: 5%;
+    color: #C6F806;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+  }
+  
+}
+
