@@ -16,6 +16,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     .join("");
 if(!isMenuOpen){
   document.body.style.overflow = "auto";
+  document.body.style.overflowY = "auto";
 }
   return (
     <div className="hero-main">
