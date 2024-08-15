@@ -12,26 +12,29 @@ const Tagline = () => {
   useEffect(() => {
     let innovationAnimation, engageAnimation;
 
+    // Load 'Innovation' Lottie animation
     if (innovationLottie.current) {
       innovationAnimation = lottie.loadAnimation({
         container: innovationLottie.current,
         renderer: "svg",
         loop: true,
         autoplay: true,
-        path: "https://raw.githubusercontent.com/GokulAnithaNandakumar/lottie-host/66ea27f6ac54f4cba84cb146c153e5ae59c080d8/Heart%20Smiley.json",
+        path: "https://raw.githubusercontent.com/GokulAnithaNandakumar/lottie-host/66ea27f6ac54f4cba84cb146c153e5ae59c080d8/Heart%20Smiley.json", // Replace with your Lottie JSON path
       });
     }
 
+    // Load 'Engage' Lottie animation
     if (engageLottie.current) {
       engageAnimation = lottie.loadAnimation({
         container: engageLottie.current,
         renderer: "svg",
         loop: true,
         autoplay: true,
-        path: "https://raw.githubusercontent.com/GokulAnithaNandakumar/lottie-host/66ea27f6ac54f4cba84cb146c153e5ae59c080d8/Sunglasses%20Smiley.json",
+        path: "https://raw.githubusercontent.com/GokulAnithaNandakumar/lottie-host/66ea27f6ac54f4cba84cb146c153e5ae59c080d8/Sunglasses%20Smiley.json", // Replace with your Lottie JSON path
       });
     }
 
+    // Cleanup function to prevent duplicate animations
     return () => {
       if (innovationAnimation) {
         innovationAnimation.destroy();
