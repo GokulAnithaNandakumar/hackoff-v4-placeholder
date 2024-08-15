@@ -198,6 +198,28 @@
     }
   }
 
+  .title-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .title-container h1 {
+    position: relative;
+    z-index: 1; /* Ensures the text is above the Lottie animation */
+  }
+  
+  .lottie-animation-4-0 {
+    position: absolute;
+    top: 30%;
+    left: 94%; /* Adjust as necessary to overlap with the text */
+    width: 7rem; /* Adjust size */
+    height: 8rem; /* Adjust size */
+    z-index: 2; /* Ensures the animation is behind the text */
+    transform: rotate(20deg);
+  }
+  
+  
+
 @media (max-width: 768px) {
     #footer {
         padding: 2rem;
