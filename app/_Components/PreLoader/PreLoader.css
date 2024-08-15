@@ -55,18 +55,23 @@
   to { width: 100%; }
 }
 
-@media (max-width: 768px){
-
-  #preloader{
+@media (max-width: 768px) {
+  
+  #preloader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
+    top: 0;
+    transform: none;
   }
 
   #logo img {
-    width: 60vw;
+    width: 55vw;
     height: auto;
   }
 
-  #loader{
+  #loader {
     width: 75%;
   }
 }
