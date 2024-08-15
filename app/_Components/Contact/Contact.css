@@ -164,6 +164,7 @@ body {
 @media (max-width: 560px) {
   .h1contact {
     font-size: 30px;
+   
   }
 
   .container4 {
@@ -183,7 +184,9 @@ body {
   .contact-card-mobile .contact-info {
     flex: 1;
   }
-
+.h1faq{
+  margin: 0;
+}
   .contact-card-mobile .call-icon {
     width: 48px;
     height: 48px;

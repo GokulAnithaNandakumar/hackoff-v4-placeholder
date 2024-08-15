@@ -12,12 +12,7 @@
   justify-content: space-evenly;
   z-index: 1;
 }
-.menu-overlay{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: 100;
-}
+
 .hero-logo {
   width: 54%;
   max-width: fit-content;
@@ -180,23 +175,98 @@ p {
 }
 
 @media (max-width: 768px) {
-  .hero-main {
-    height: fit-content;
-  }
-
   .hero-logo img {
-    height: 7rem;
-    margin-top: 8rem;
-    box-shadow: 0px 0px 5000px 75px black;
+    height: 330px;
+  
+margin: 0;
+    background-color: black;
+    width: 400px;
+    position: relative;
+    left: 9%;
   }
+  .hero-logo {
+  display: flex;
+    width: 100vw;
+    position: absolute;
+    top: 67%;
+right:5% ;
 
-  .coming-soon-container {
-    margin-top: 5rem;
-    width: 100%;
+    
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: coloumn;
+  width: 100vw;
+    margin-top: 3%;
+    
+    z-index: 1;
+  }
+  .hero-text-container h1{
+    font-size: 23px;
+    line-height: 40px;
+    
+  }
+  .hero-text-container{
+    width:100vw;
+    position: absolute;
+    bottom:20%;
+
+    text-align: center;
+
+  }
+  .hero-main{
+    height:100vh;
+
+
+  }
+  .coming-soon-container{
+   
+    top: 100%;
+    margin: 0;
+    width: 100vw;
     left: 0;
+    right: 0;
+  }
+  .b-container{
+   display: flex;
+   justify-content: center;
+ 
+   
+  width: 100vw;
   }
 
-  .coming-soon-text {
-    font-size: 2.5rem;
+  .date{
+   width: 146px;
+    height: 50%;
+    
+
   }
+  .btn{
+    width:92px ;
+    height: 50%;
+    
+  }
+  .btn img{
+    width: 11.84px;
+    height: 11.84px;
+  }
+  .btn p{
+    font-size: 10px;
+    line-height:14px ;
+  }
+  .date h4{
+    font-size: 10px;
+    line-height:14px ;
+   
+  }
+  .coming-soon{
+    width: 100vw;
+  }
+  .socials-container{
+    width: 100vw;
+   justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
 }

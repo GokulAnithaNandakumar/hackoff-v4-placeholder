@@ -142,4 +142,16 @@ a {
   html {
     color-scheme: dark;
   }
+  
+}
+@media (max-width: 768px) {
+  body{
+    width: 100vw;
+    
+  }
+  html{
+    overflow-x: hidden;
+    width: 100vw;
+
+  }
 }

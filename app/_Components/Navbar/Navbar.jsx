@@ -17,6 +17,9 @@ const Navbar = (props) => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
+    if(window.innerWidth <= 768){
+      document.body.style.overflowX= "hidden";
+    }
 
     handleResize();
     window.addEventListener("resize", handleResize);

@@ -135,5 +135,7 @@ nav ul li img {
   .navbar-logo-container img{
     width: 70%;
   }
-  
+  nav{
+    width: 100vw;
+  }
 }
