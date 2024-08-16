@@ -222,6 +222,7 @@
 
 @media (max-width: 768px) {
     #footer {
+        margin-top: 20%;
         padding: 2rem;
         height: fit-content;
         margin-bottom: 2rem;
