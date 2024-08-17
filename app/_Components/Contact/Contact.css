@@ -252,8 +252,8 @@ h1 {
 
 .contact-container {
     width: 100%;
-    border-top: 2px dotted #ffffff;
-    border-bottom: 2px dotted #ffffff;
+    border-top: 2px dashed #444;
+    border-bottom: 2px dashed #444;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
