@@ -269,7 +269,6 @@ h1 {
 .contact-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 15px;
 }
 
@@ -291,7 +290,7 @@ h1 {
 
 .contact-info h3 {
   padding-top: 20px;
-    font-size: 2.25rem;
+    font-size: 1.3rem;
     font-weight: 700;
     line-height: 20px;
     color: #c6f806;
@@ -326,7 +325,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   align-items: center;
-  font-size: large;
+  font-size: 0.8rem;
   align-content: space-between;
 }
 
