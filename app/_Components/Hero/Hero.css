@@ -179,8 +179,8 @@ p {
     height: 330px;
   
 margin: 0;
-    background-color: black;
-    width: 400px;
+    background-color: #0c0c0c;
+    width: 97%;
     position: relative;
     left: 9%;
   }
