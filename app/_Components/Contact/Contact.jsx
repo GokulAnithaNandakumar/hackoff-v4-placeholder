@@ -34,9 +34,9 @@ const Contact = () => {
             <div className='contact-info'>
               <h3>{contact.name}</h3>
               <p>{contact.role}</p>
-              <span className='contact-phone-mobile'>{contact.phone}</span>
+             <div className="mobile1"> <span className='contact-phone-mobile'>{contact.phone}</span> <div className='call-icon'><a href={`tel:${contact.phone}`} className='phone-call'><FaPhoneAlt /></a></div> </div>
             </div>
-              <div className='call-icon'><a href={`tel:${contact.phone}`} className='phone-call'><FaPhoneAlt /></a></div> 
+             
           </div>
           </>
           ))}
