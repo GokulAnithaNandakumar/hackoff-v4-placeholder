@@ -227,6 +227,7 @@ h1 {
    border-bottom: 2px dashed #444;
     border-left: 2px dashed #444;
     border-right: 2px dashed #444;
+    background-color: #0c0c0c
   }
 
   * {
@@ -259,6 +260,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #0c0c0c;
 }
 
 * {
