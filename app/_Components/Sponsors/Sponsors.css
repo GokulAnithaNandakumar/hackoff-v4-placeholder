@@ -1,159 +1,259 @@
-.spons-container{
-    margin-bottom: 29%;
-  }
-  
-  .partners{
-      display: flex;
-      margin-top: 8%;
-      height: 0;
-  }
-  
-  .partners h2{
-      font-family: "Atyp Display";
-      font-weight: 400;
-      font-size: 46px;
-      line-height: 22.4px;
-      height: 0px;
-      margin-left: 6%;
-  }
-  .part{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      position: absolute;
-      width: 100%;
-      border-top: solid 2px #454545;
-      border-bottom: solid 2px #454545;
-      margin-top: 100px;
-  }
-  
-  .space{
-      width: 5%;
-  }
-  
-  .spons-container h1{
-      font-size: 60px;
-      line-height: 19.6px;
-      font-weight: 500;
-      font-family: "Druk Wide Trial";
-      color: #C6F806;
-      margin-left: 85px;
-  }
-  
-  .partner1{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      border-right: dotted 2px #454545;
-      border-left: dotted 2px #454545;
-      height:250px ;
-      
-  }
-  
+/* Base Styles */
+.spons-container {
+  margin-bottom: 30%;
+}
 
-  
-  
-  .partner2{
-      height: 250px;
-      width: 550px;
-      border-right: dotted 2px #454545;   
-      margin-left: 0;
-      width: 573px;
-  }
-  .partner2 img{
-      width:300px ;
-      padding: 10px;
-      margin-inline: 30px;
-  }
-  .partner1 img{
-      padding: 2%;
-  }
-  
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 6%;
+  height: 0;
+}
 
-  .sponsors{
-      display: flex;
-      margin-top: 31%;
+.partners h2 {
+  font-family: "Atyp Display";
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 20px;
+  height: 0px;
+  margin-left: 6%;
+}
+.partner,
+.sponsor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+}
+.part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: solid 2px #454545;
+  border-bottom: solid 2px #454545;
+  margin-top: 100px;
+}
+
+.space {
+  width: 5%;
+}
+
+.spons-container h1 {
+  font-size: 60px;
+  line-height: 19.6px;
+  font-weight: 500;
+  font-family: "Druk Wide Trial";
+  color: #c6f806;
+  margin-left: 85px;
+}
+
+.partner1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: dotted 2px #454545;
+  border-left: dotted 2px #454545;
+  height: 200px;
+  width: 70%;
+}
+
+.partner2 {
+  height: 200px;
+  border-right: dotted 2px #454545;
+  margin-left: 0;
+  width: 70%;
+}
+
+.partner1 img {
+  width: 70%;
+  padding: 2%;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 25%;
+}
+
+.sponsors h2 {
+  margin-top: 15px;
+}
+
+.spons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  border-top: solid 2px #454545;
+  border-bottom: solid 2px #454545;
+  margin-top: 100px;
+}
+
+.sponsors h2 {
+  font-family: "Atyp Display";
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 22.4px;
+  height: 0px;
+  margin-left: 6%;
+}
+
+.sponsor1,
+.sponsor2,
+.sponsor3 {
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  border-left: dotted 2px #454545;
+  width: 35%;
+}
+
+.sponsor1 img,
+.sponsor2 img,
+.sponsor3 img {
+  width: 80%;
+}
+
+.sponsor4 {
+  margin-left: 0;
+  display: flex;
+  border-left: dotted 2px #454545;
+  width: 35%;
+  height: 170px;
+}
+
+.space1 {
+  width: 7%;
+  height: auto;
+}
+
+.space2 {
+  width: 5%;
+  height: 170px;
+  border-left: dotted 2px #454545;
+}
+
+@media(max-width:1080px){
+    .spons-container h1 {
+        margin-left:6%;
+    }
+    .sponsors{
+        margin-top:45%;
+    }
+}
+
+@media (max-width: 768px) {
+  .spons-container {
+    margin-bottom: 33%;
   }
-  
-  .sponsors h2{
-      margin-top: 15px;
-      
+  .spons-container h1 {
+    font-size: 50px;
+    margin-left: 6%;
   }
-  .spons{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      position: absolute;
-      width: 100%;
-      border-top: solid 2px #454545;
-      border-bottom: solid 2px #454545;
-      margin-top: 100px;
-  
-  
+  .partners h2,
+  .sponsors h2 {
+    margin-top: 2%;
+    font-size: 30px;
   }
-  
-  .sponsors h2{
-      font-family: "Atyp Display";
-      font-weight: 400;
-      font-size: 46px;
-      line-height: 22.4px;
-      height: 0px;
-      margin-left: 6%;
+  .partner,
+  .partner1,
+  .partner2 {
+    height: 140px;
+    width: 90%;
   }
-  
-  .sponsor1 {
-      margin-left: 0;
-      display: flex;
-     height: 170px;
-      border-left: dotted 2px #454545;
-      width: 35%;
+  .partner1 img {
+    width: 90%;
   }
-  .sponsor1 img{
-      width: 85% ;
-      padding: 10px;
-      margin-inline: 20px;
-      
+  .sponsors {
+    margin-top: 39%;
   }
-  .sponsor2 {
-      margin-left: 0;
-      display: flex;
-     height: 170px;
-      border-left: dotted 2px #454545;
-      width: 35%;
+  .sponsor,
+  .sponsor1,
+  .sponsor2,
+  .sponsor3,
+  .sponsor4 {
+    height: 140px;
+    width: 90%;
   }
-  .sponsor2 img{
-      width:85% ;
-      padding: 10px;
-      margin-inline: 20px;
+  .sponsor1 img,
+  .sponsor2 img,
+  .sponsor3 img {
+    width: 90%;
+    padding: 10px;
+  }
+  .space2 {
+    height: 140px;
+  }
+}
+@media (max-width: 500px) {
+  .spons-container {
+    margin-bottom: 110%;
+  }
+  .spons-container h1 {
+    font-size: 35px;
+    margin-left: 6%;
+  }
+  .partners h2 {
+    margin-top: 2%;
+    font-size: 25px;
+  }
+  .sponsors h2 {
+    font-size: 25px;
+    margin-top: 10%;
+  }
+  .partner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .partner,
+  .partner1 {
+    height: 140px;
+    width: 90%;
+  }
+  .partner1 img {
+    width: 90%;
+  }
+  .sponsors {
+    margin-top: 60%;
+  }
+  .sponsor {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .spons {
+    height: 50%;
+  }
+  .sponsor1,
+  .sponsor2,
+  .sponsor3 {
+    border-right: dotted 2px #454545;
+    border-bottom: dotted 2px #454545;
+    height: 100%;
+    width: 90%;
   }
   .sponsor3 {
-    margin-left: 0;
-    display: flex;
-   height: 170px;
-    border-left: dotted 2px #454545;
-    width: 35%;
+    border-bottom: none;
+  }
+  .sponsor1 img,
+  .sponsor2 img,
+  .sponsor3 img {
+    width: 70%;
+    padding: 10px;
+  }
+  .space2 {
+    height: 140px;
+    border: none;
+  }
 }
-  .sponsor3 img{
-      width:85% ;
-      padding: 10px;
-      margin-inline: 20px;
-  }
-  .sponsor4{
-      margin-left: 0;
-      display: flex;
-    
-      border-left: dotted 2px #454545;
-      width: 430px;
-      height: 170px;
-  }
-  .space1{
-          width: 100px;
-      height: 170px;  
-  }
-  .space2{
-    
-      width: 100px;
-      height: 170px;
-      border-left: dotted 2px #454545;    
-  
-  }
