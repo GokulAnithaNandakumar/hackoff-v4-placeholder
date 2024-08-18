@@ -222,7 +222,7 @@ h1 {
   .contact-card-mobile {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
    width: 80%;
    border-bottom: 2px dashed #444;
     border-left: 2px dashed #444;
