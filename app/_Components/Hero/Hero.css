@@ -180,9 +180,9 @@ p {
   
 margin: 0;
     background-color: #0c0c0c;
-    width: 97%;
+    width: 95%;
     position: relative;
-    left: 11%;
+    left: 5%;
   }
   .hero-logo {
   display: flex;
