@@ -182,14 +182,14 @@ margin: 0;
     background-color: #0c0c0c;
     width: 91%;
     position: relative;
-    left: 8%;
   }
   .hero-logo {
   display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100vw;
     position: absolute;
     top: 63%;
-right:5% ;
 
     
   }
