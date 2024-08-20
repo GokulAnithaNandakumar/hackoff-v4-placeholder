@@ -53,14 +53,15 @@
 
 .t1,
 .t2,
-.t3 {
+.t3,
+.t4 {
   border-bottom: 1px dashed #444;
 }
 
 .track-item {
   flex: 1 1 calc(33.33% - 2rem);
   display: flex;
-  width: 458px;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -91,7 +92,13 @@
   margin: 0; /* Remove any extra margins */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .tracks-item-container {
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+}
+
+@media (max-width: 980px) {
   .tracks-title {
     font-size: 3em;
   }

@@ -179,17 +179,17 @@ p {
     height: 330px;
   
 margin: 0;
-    background-color: black;
-    width: 400px;
+    background-color: #0c0c0c;
+    width: 91%;
     position: relative;
-    left: 9%;
   }
   .hero-logo {
   display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100vw;
     position: absolute;
     top: 63%;
-right:5% ;
 
     
   }
@@ -203,7 +203,7 @@ right:5% ;
   }
   .hero-text-container h1{
     font-size: 23px;
-    line-height: 40px;
+    line-height: 25px;
     
   }
   .hero-text-container{
@@ -237,13 +237,13 @@ right:5% ;
 
   .date{
    width: 146px;
-    height: 50%;
+    height: 75%;
     
 
   }
   .btn{
     width:100px ;
-    height: 50%;
+    height: 75%;
     
   }
   .btn img{

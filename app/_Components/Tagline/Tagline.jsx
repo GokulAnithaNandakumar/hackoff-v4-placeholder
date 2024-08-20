@@ -52,7 +52,7 @@ const Tagline = () => {
 
   const topText = "Fusing Innovation";
   const bottomText =
-    "& Technology into Unparalleled Digital Solutions that Inspire and Engage.";
+    "& Technology into Unparalleled Digital Solutions that Inspire & Engage.";
 
   const wrapCharactersInSpan = (text) => {
     return text.split("").map((char, index) => {

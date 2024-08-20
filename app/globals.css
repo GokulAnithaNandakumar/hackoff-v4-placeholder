@@ -119,7 +119,7 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000; /* black color for the track */
+  background: #00000000; /* black color for the track */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -133,7 +133,7 @@ a {
 
 /* For Firefox */
 * {
-  scrollbar-color: #C6F806 #454444; /* neon green thumb and black track */
+  scrollbar-color: #C6F806 #000000; /* neon green thumb and black track */
   scrollbar-width: thin; /* thin scrollbar */
 }
 

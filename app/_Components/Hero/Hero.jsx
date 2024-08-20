@@ -30,7 +30,7 @@ if(!isMenuOpen){
        <div className="hero-container">
     
         <div className="hero-logo">
-          <img src="images/GamePad.png" alt="" />
+          <img src="images/IMG_7616-removebg.png" alt="" />
         </div>
         <div className="hero-text-container">
           <h1>One of</h1>
