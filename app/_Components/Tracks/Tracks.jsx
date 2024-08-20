@@ -20,8 +20,7 @@ const Tracks = () => {
             />
             <h2 className="track-title">App Dev</h2>
             <p className="track-description">
-              Develop innovative solutions by leveraging diverse perspectives
-              and collaborative efforts.
+              Design and build creative mobile or desktop applications, enhancing user experience with intuitive interfaces.
             </p>
           </div>
           <div className="track-item t2">
@@ -32,8 +31,7 @@ const Tracks = () => {
             />
             <h2 className="track-title">AI/ML</h2>
             <p className="track-description">
-              Develop innovative solutions by leveraging diverse perspectives
-              and collaborative efforts.
+              Develop intelligent systems that learn, predict, and automate tasks using advanced algorithms and data analysis.
             </p>
           </div>
           <div className="track-item t3">
@@ -44,8 +42,7 @@ const Tracks = () => {
             />
             <h2 className="track-title">AR/VR & Game Dev</h2>
             <p className="track-description">
-              Develop innovative solutions by leveraging diverse perspectives
-              and collaborative efforts
+              Create immersive experiences or games that blend reality and virtual worlds with innovative storytelling.
             </p>
           </div>
           <div className="track-item t4">
@@ -56,8 +53,7 @@ const Tracks = () => {
             />
             <h2 className="track-title">Web3 & Blockchain</h2>
             <p className="track-description">
-              Develop innovative solutions by leveraging diverse perspectives
-              and collaborative efforts.
+              Explore decentralized apps, smart contracts, or secure, transparent systems using blockchain and Web3 technologies.
             </p>
           </div>
           <div className="track-item t5">
@@ -68,8 +64,7 @@ const Tracks = () => {
             />
             <h2 className="track-title">IOT</h2>
             <p className="track-description">
-              Develop innovative solutions by leveraging diverse perspectives
-              and collaborative efforts.
+              Connect and control devices, creating smart environments through innovative Internet of Things solutions.
             </p>
           </div>
           <div className="track-item t6">
@@ -80,8 +75,7 @@ const Tracks = () => {
             />
             <h2 className="track-title">Open Innovation</h2>
             <p className="track-description">
-              Develop innovative solutions by leveraging diverse perspectives
-              and collaborative efforts.
+              Unleash creativity to solve any challenge, pushing boundaries and exploring new ideas without limits.
             </p>
           </div>
         </div>
