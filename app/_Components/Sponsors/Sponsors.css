@@ -82,10 +82,6 @@
   margin-top: 25%;
 }
 
-.sponsors h2 {
-  margin-top: 15px;
-}
-
 .spons {
   display: flex;
   flex-direction: row;
@@ -94,7 +90,7 @@
   width: 100%;
   border-top: solid 2px #454545;
   border-bottom: solid 2px #454545;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .sponsors h2 {
@@ -104,6 +100,7 @@
   line-height: 22.4px;
   height: 0px;
   margin-left: 6%;
+  margin-top: 15px;
 }
 
 .sponsor1,
@@ -143,13 +140,13 @@
   border-left: dotted 2px #454545;
 }
 
-@media(max-width:1080px){
-    .spons-container h1 {
-        margin-left:6%;
-    }
-    .sponsors{
-        margin-top:45%;
-    }
+@media (max-width: 1080px) {
+  .spons-container h1 {
+    margin-left: 6%;
+  }
+  .sponsors {
+    margin-top: 45%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -197,19 +194,18 @@
 }
 @media (max-width: 500px) {
   .spons-container {
-    margin-bottom: 110%;
+    margin-bottom: 125%;
   }
   .spons-container h1 {
     font-size: 35px;
     margin-left: 6%;
   }
   .partners h2 {
-    margin-top: 2%;
     font-size: 25px;
   }
   .sponsors h2 {
     font-size: 25px;
-    margin-top: 10%;
+    padding-top: 10%;
   }
   .partner {
     flex-direction: column;
@@ -232,8 +228,12 @@
     align-items: center;
     justify-content: center;
   }
+  .part {
+    margin-top: 80px;
+  }
   .spons {
-    height: 50%;
+    height: 56%;
+    margin-top: 35%;
   }
   .sponsor1,
   .sponsor2,
@@ -255,5 +255,17 @@
   .space2 {
     height: 140px;
     border: none;
+  }
+}
+@media (max-width: 440px) {
+  .spons {
+    height: 46%;
+    margin-top: 35%;
+  }
+}
+@media (max-width: 360px) {
+  .spons {
+    height: 50%;
+    margin-top: 35%;
   }
 }
