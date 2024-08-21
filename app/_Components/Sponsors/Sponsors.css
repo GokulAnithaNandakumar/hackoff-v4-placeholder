@@ -56,15 +56,15 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-right: dotted 2px #454545;
-  border-left: dotted 2px #454545;
+  border-right: dashed 2px #454545;
+  border-left: dashed 2px #454545;
   height: 200px;
   width: 70%;
 }
 
 .partner2 {
   height: 200px;
-  border-right: dotted 2px #454545;
+  border-right: dashed 2px #454545;
   margin-left: 0;
   width: 70%;
 }
@@ -82,6 +82,10 @@
   margin-top: 25%;
 }
 
+.sponsors h2 {
+  margin-top: 15px;
+}
+
 .spons {
   display: flex;
   flex-direction: row;
@@ -90,7 +94,7 @@
   width: 100%;
   border-top: solid 2px #454545;
   border-bottom: solid 2px #454545;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .sponsors h2 {
@@ -100,7 +104,6 @@
   line-height: 22.4px;
   height: 0px;
   margin-left: 6%;
-  margin-top: 15px;
 }
 
 .sponsor1,
@@ -111,7 +114,7 @@
   align-items: center;
   justify-content: center;
   height: 170px;
-  border-left: dotted 2px #454545;
+  border-left: dashed 2px #454545;
   width: 35%;
 }
 
@@ -124,7 +127,7 @@
 .sponsor4 {
   margin-left: 0;
   display: flex;
-  border-left: dotted 2px #454545;
+  border-left: dashed 2px #454545;
   width: 35%;
   height: 170px;
 }
@@ -137,16 +140,16 @@
 .space2 {
   width: 5%;
   height: 170px;
-  border-left: dotted 2px #454545;
+  border-left: dashed 2px #454545;
 }
 
-@media (max-width: 1080px) {
-  .spons-container h1 {
-    margin-left: 6%;
-  }
-  .sponsors {
-    margin-top: 45%;
-  }
+@media(max-width:1080px){
+    .spons-container h1 {
+        margin-left:6%;
+    }
+    .sponsors{
+        margin-top:45%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -165,7 +168,7 @@
   .partner,
   .partner1,
   .partner2 {
-    height: 140px;
+    height: 140pxz;
     width: 90%;
   }
   .partner1 img {
@@ -194,18 +197,19 @@
 }
 @media (max-width: 500px) {
   .spons-container {
-    margin-bottom: 125%;
+    margin-bottom: 110%;
   }
   .spons-container h1 {
     font-size: 35px;
     margin-left: 6%;
   }
   .partners h2 {
+    margin-top: 2%;
     font-size: 25px;
   }
   .sponsors h2 {
     font-size: 25px;
-    padding-top: 10%;
+    margin-top: 10%;
   }
   .partner {
     flex-direction: column;
@@ -228,12 +232,8 @@
     align-items: center;
     justify-content: center;
   }
-  .part {
-    margin-top: 80px;
-  }
   .spons {
-    height: 56%;
-    margin-top: 35%;
+    height: 50%;
   }
   .sponsor1,
   .sponsor2,
@@ -255,17 +255,5 @@
   .space2 {
     height: 140px;
     border: none;
-  }
-}
-@media (max-width: 440px) {
-  .spons {
-    height: 46%;
-    margin-top: 35%;
-  }
-}
-@media (max-width: 360px) {
-  .spons {
-    height: 50%;
-    margin-top: 35%;
   }
 }
