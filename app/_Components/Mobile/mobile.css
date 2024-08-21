@@ -1,3 +1,5 @@
+@media (max-width: 768px)
+{
 .mobile-container{
     z-index: 100;
     width: 100vw;
@@ -40,7 +42,9 @@ ul.mobile-items{
   
     
 }
-@media (max-width: 961px)
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)
 {
     .mobile-container{
         z-index: 100;
