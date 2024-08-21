@@ -16,6 +16,7 @@ const Navbar = (props) => {
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 961);
     };
     if(window.innerWidth <= 768){
       document.body.style.overflowX= "hidden";

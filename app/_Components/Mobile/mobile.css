@@ -40,3 +40,50 @@ ul.mobile-items{
   
     
 }
+@media (max-width: 961px)
+{
+    .mobile-container{
+        z-index: 100;
+        width: 100vw;
+        overflow-y: hidden; 
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       background-color: #0C0C0C;
+       position: fixed;
+    }
+    .sub-container{
+        border: 4.25px dashed  #454545;
+        width: 693px;
+        height: 62%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       background-color: #0C0C0C;
+       
+      
+    }
+    
+    li{
+        list-style: none;
+        display: flex;
+        font-size: 37px;
+        font-weight: 600;
+        line-height: 48.17px;
+        text-align: center;
+        
+       
+        
+    }
+    ul.mobile-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        
+      
+        
+    }
+}
