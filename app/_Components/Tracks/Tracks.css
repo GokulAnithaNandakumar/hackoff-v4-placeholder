@@ -157,3 +157,10 @@
     font-size: 1.1rem;
   }
 }
+
+@media (max-width: 380px) {
+  .track-item {
+    font-size: 1rem;
+    padding: 40% 10%;
+  }
+}
