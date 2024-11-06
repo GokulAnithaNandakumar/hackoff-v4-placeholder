@@ -42,7 +42,7 @@ if(!isMenuOpen){
               <p>VIT Vellore</p>
             </div>
             <div className="date">
-              <h4>Coming Soon</h4>
+              <h4>11th-12th November</h4>
             </div>
           </div>
           <div className="socials-container">
