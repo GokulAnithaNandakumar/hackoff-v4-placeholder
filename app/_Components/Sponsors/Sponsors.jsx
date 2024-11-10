@@ -12,8 +12,8 @@ const Sponsors = () => {
             <div className="partner1">
               <img
                 className="devsponsor"
-                src="./images/devfoliobrandlogo.png"
-                alt="DEVFOLIO LOGO"
+                src="./images/ASG.png"
+                alt="ASG LOGO"
               />
             </div>
             <div className="partner2"></div>
@@ -29,13 +29,13 @@ const Sponsors = () => {
           <div className="space"></div>
           <div className="sponsor">
             <div className="sponsor1">
-              <img src="./images/polygon.png" alt="POLYGON LOGO" />
+              {/* <img src="" alt="" /> */}
             </div>
             <div className="sponsor2">
-              <img src="./images/ethindia.png" alt="ETHINDIA LOGO" />
+              {/* <img src="" alt="" /> */}
             </div>
             <div className="sponsor3">
-              <img src="./images/fold.png" alt="FOLD LOGO" />
+              {/* <img src="" alt="" /> */}
             </div>
             <div className="sponsor4"></div>
           </div>
