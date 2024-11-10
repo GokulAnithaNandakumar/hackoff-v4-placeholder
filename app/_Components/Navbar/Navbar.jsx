@@ -48,12 +48,13 @@ const Navbar = (props) => {
             <li><Link to="faqs" smooth={true} duration={500}>FAQs</Link></li>
             <li><Link to="contact" smooth={true} duration={500}>Contact Us</Link></li>
             <li style={{marginLeft:"10%"}}> 
-              <button
-                className="form-teams-button"
-                onClick={() => alert("Form Teams clicked")} // Replace with desired functionality
-              >
-                Form Teams
-              </button>
+            <button
+  className="form-teams-button"
+  onClick={() => window.location.href = 'https://submissions.ietvit.co/'}
+>
+  Form Teams
+</button>
+
             </li>
           </>
         )}
