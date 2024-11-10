@@ -51,7 +51,12 @@ const MobileMenu = (props) => {
             </Link>
           </li>
           <li>
-            <DevfolioButton />
+          <button
+  className="form-teams-button"
+  onClick={() => window.location.href = 'https://submissions.ietvit.co/'}
+>
+  Form Teams
+</button>
           </li>
         </ul>
       </div>

@@ -9,11 +9,13 @@ const DevfolioButton = dynamic(() => import('../DevfolioBtn/DevfolioBtn'), { ssr
 
 const Banner = () => {
   return (
-    <div className='banner'>
-      <div className='banner-content'>
-        <h1>IT'S TIME. <br/> REGISTER NOW!</h1>
+    <a href="https://submissions.ietvit.co/" target="_blank" rel="noopener noreferrer" className="banner-link">
+      <div className='banner'>
+        <div className='banner-content'>
+          <h1>IT'S TIME. <br/> REGISTER NOW!</h1>
+        </div>
       </div>
-    </div>
+    </a>
   );
 };
 
