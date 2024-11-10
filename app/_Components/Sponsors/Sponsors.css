@@ -60,13 +60,40 @@
   border-left: dashed 2px #454545;
   height: 200px;
   width: 70%;
+  padding: 50px;
 }
 
-.partner2 {
-  height: 200px;
+.partner2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   border-right: dashed 2px #454545;
-  margin-left: 0;
+  height: 200px;
+  width: 90%;
+}
+
+.partner3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-right: dashed 2px #454545;
+  height: 200px;
+  width: 90%;
+}
+
+.devsponsor{
+  width: 60%;
+}
+
+.devsponsor2{
+  height: 80%;
   width: 70%;
+}
+
+.devsponsor3{
+  width: 60%;
 }
 
 .partner1 img {

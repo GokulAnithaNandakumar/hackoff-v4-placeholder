@@ -12,34 +12,26 @@ const Sponsors = () => {
             <div className="partner1">
               <img
                 className="devsponsor"
-                src="./images/ASG.png"
+                src="./images/asglogo.png"
                 alt="ASG LOGO"
               />
             </div>
-            <div className="partner2"></div>
-            <div className="partner2"></div>
+            <div className="partner2">
+               <img
+                className="devsponsor2"
+                src="./images/emtlogo.png"
+                alt="ASG LOGO"
+              />
+            </div>
+            <div className="partner3">
+            <img
+                className="devsponsor3"
+                src="./images/quillaudits.png"
+                alt="ASG LOGO"
+              />
+            </div>
           </div>
           <div className="space1"></div>
-        </div>
-      </div>
-
-      <div className="sponsors">
-        <h2> SPONSORS</h2>
-        <div className="spons">
-          <div className="space"></div>
-          <div className="sponsor">
-            <div className="sponsor1">
-              {/* <img src="" alt="" /> */}
-            </div>
-            <div className="sponsor2">
-              {/* <img src="" alt="" /> */}
-            </div>
-            <div className="sponsor3">
-              {/* <img src="" alt="" /> */}
-            </div>
-            <div className="sponsor4"></div>
-          </div>
-          <div className="space2"></div>
         </div>
       </div>
     </div>
