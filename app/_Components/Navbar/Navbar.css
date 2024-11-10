@@ -36,6 +36,27 @@ nav ul li {
   font-weight: 300;
  
 }
+
+.form-teams-button {
+  display: flex;
+  font-family: "Druk Wide Trial", sans-serif;
+  font-size: medium;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #0c0c0c;
+  padding: 10px 20px;
+  border: none;
+  width: 15rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-teams-button:hover {
+  background-color: #b6e506; /* Slightly darker shade for hover effect */
+}
+
 li.devfolio{
   display: flex;
 position: absolute;

@@ -12,7 +12,6 @@ const Banner = () => {
     <div className='banner'>
       <div className='banner-content'>
         <h1>IT'S TIME. <br/> REGISTER NOW!</h1>
-        <DevfolioButton />
       </div>
     </div>
   );
